@@ -238,6 +238,7 @@ async function renderChart(region) {
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         scales: {
           x: {
             title: {
@@ -386,4 +387,3 @@ document.addEventListener("DOMContentLoaded", () => {
     resultContainer.style.display = "block";
   });
 });
-
