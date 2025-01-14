@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Inflación Personal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="assets/logo.png" alt="Anana Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#calculator">Calculadora</a></li>
+          <li><a href="#about">Acerca de</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Calculadora de Inflación Personal</h1>
+      <img src="assets/home-logo.png" alt="Anana Logo" class="anana-logo" style="height: 70px; width: auto;">
+    </div>
+
+     <!-- Extra Triangles -->
+    <div class="hero-extra one"></div>
+    <div class="hero-extra two"></div>
+    <div class="hero-extra three"></div>
+
+  </section>
+
+  <!-- Calculator Section -->
+  <section id="tools" class="tools">
+    <div class="container">
+      <div class="calculator-toggle">
+        <button id="simple-toggle" class="calc-button active">  Simple  </button>
+        <button id="advanced-toggle" class="calc-button">Avanzada (Proximamente)</button>
+      </div>
+
+      <!-- Simple Calculator -->
+      <div id="simple-calculator" class="calculator">
+        <form>
+          <!-- Province Dropdown -->
+          <label for="state">¿En qué provincia vivís?</label>
+          <select id="state" name="state">
+            <option value="argentina" selected>Argentina - Nivel Nacional</option>
+            <option value="buenos_aires">Buenos Aires</option>
+            <option value="caba">CABA</option>
+            <option value="catamarca">Catamarca</option>
+            <option value="chaco">Chaco</option>
+            <option value="chubut">Chubut</option>
+            <option value="cordoba">Córdoba</option>
+            <option value="corrientes">Corrientes</option>
+            <option value="entre_rios">Entre Ríos</option>
+            <option value="formosa">Formosa</option>
+            <option value="jujuy">Jujuy</option>
+            <option value="la_pampa">La Pampa</option>
+            <option value="la_rioja">La Rioja</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="misiones">Misiones</option>
+            <option value="neuquen">Neuquén</option>
+            <option value="rio_negro">Río Negro</option>
+            <option value="salta">Salta</option>
+            <option value="san_juan">San Juan</option>
+            <option value="san_luis">San Luis</option>
+            <option value="santa_cruz">Santa Cruz</option>
+            <option value="santa_fe">Santa Fé</option>
+            <option value="santiago_del_estero">Santiago del Estero</option>
+            <option value="tierra_del_fuego">Tierra del Fuego</option>
+            <option value="tucuman">Tucumán</option>
+          </select>
+
+          <!-- City Dropdown -->
+          <div id="city-container" style="display: none;">
+            <label for="city">¿En qué municipio?</label>
+            <select id="city" name="city">
+              <!-- Cities populated dynamically via JavaScript -->
+            </select>
+          </div>
+
+          <!-- Calculate Button -->
+          <button type="button" id="calculate">Calcular!</button>
+        </form>
+      </div>
+
+      <!-- Results Container -->
+      <div id="results" style="display: none; margin-top: 30px;">
+        <h2>Resultados</h2>
+        <p><strong>Inflación Noviembre 2024:</strong> <span id="monthly-inflation"></span>%</p>
+        <p><strong>Inflación Interanual (Ene '24 - Dic '24)</strong> <span id="yearly-inflation"></span>%</p>
+        <p><strong>Inflación Acumulada 2024:</strong> <span id="ytd-inflation"></span>%</p>
+      </div>
+
+      <img id="anana-borde-amarillo" src="assets/Borde-Amarillo.png" alt="Borde Amarillo" style="display: none;">
+
+      <div id="chart-container" style="display: none; margin-top: 40px;">
+       <h2>Evolución de tu Inflación Mensual</h2>
+        <canvas id="inflation-chart" width="800" height="400"></canvas>
+      </div>
+
+      <img id="anana-borde-verde" src="assets/Borde-Verde.png" alt="Borde Verde" style="display: none;">
+     
+
+      <div id="salary-comparison-container" style="display: none; margin-top: 40px;">
+        <h2>Compará contra tu sueldo</h2>
+        <h4>Ingresá tu sueldo de hace un año contra el de hoy, para comparar el cambio versus la inflación.</h4>
+        <p> No te preocupes, los datos que ingreses no son guardados por nosotros.</p>
+        <form id="salary-form">
+          <label for="previous-salary">Ingreso Enero '24</label>
+          <input type="number" id="previous-salary" placeholder="Ingresá tu ingreso del año pasado" required>
+          
+          <label for="current-salary"> - Ingreso Enero '25</label>
+          <input type="number" id="current-salary" placeholder="Ingresá tu ingreso actual" required>
+          
+          <button type="button" id="compare-salary">Comparar</button>
+        </form>
+        
+        <div id="salary-results" style="margin-top: 30px;">
+          <img id="result-image" src="assets/Empato-PPA.png" alt="Result Image" style="width: 100px; margin-top: 20px;">
+          
+          <p id="comparison-result"></p>
+          <p id="product-power"></p>
+        </div>
+      </div>
+      
+
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Anana. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="scripts/sparkle.js"></script>
+  <script src="scripts/calculator.js"></script>
+</body>
+</html>

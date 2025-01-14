@@ -1,0 +1,570 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: #f7f452; /* Yellow */
+  color: #333;
+  padding: 5px 0px;
+}
+header .container {
+  display: flex; /* Align logo and nav horizontally */
+  align-items: center; /* Align logo and links vertically */
+  justify-content: space-between; /* Push logo to the left, links to the right */
+
+}
+header .logo {
+  height: 60px;
+  width: auto; /* Maintain aspect ratio */
+}
+header ul {
+  list-style: none;
+  display: flex;
+  /*justify-content: flex-end; /* To the left */
+  gap: 20px; /* Add spacing between links */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+header li {
+  margin: 0; /* Ensure no extra spacing from margins */
+}
+header a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 40;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: #479b48; /* Green */
+  text-align: center;
+  color: white;
+  padding: 30px 20px;
+  position: relative;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.hero .anana-logo {
+    height: 150px; /* Increase the size */
+    width: auto;   /* Maintain aspect ratio */
+}
+.hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+.cta-button {
+  background: #f7f452; /* Yellow */
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.cta-button:hover {
+  background: #ffd700;
+}
+
+/* Triangles for Header */
+header {
+  position: relative; /* Allows positioning of pseudo-elements */
+  background: #f7f452; /* Yellow */
+  color: #333;
+  padding: 0 5px;
+}
+
+header::before,
+header::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+header::before {
+  top: 0px;
+  left: 0;
+  border-width: 30px 0 30px 30px; /* Triangles for left */
+  border-color: transparent transparent transparent #479b48; /* Green triangle */
+}
+
+header::after {
+  top: 60px;
+  left: 0;
+  border-width: 30px 0 30px 30px;
+  border-color: transparent transparent transparent #569b57; /* Slightly different green */
+}
+
+/* Triangles for Hero Section */
+.hero {
+  position: relative;
+  background: #479b48; /* Green */
+  text-align: center;
+  color: white;
+  padding: 25px 5px;
+}
+
+.hero::before,
+.hero::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.hero::before {
+  top: 0px;
+  left: 0;
+  border-width: 30px 0 30px 30px; /* Triangles for right */
+  border-color: transparent transparent transparent #f7f452 ; /* Yellow triangle */
+}
+
+.hero::after {
+  top: 60px;
+  left: 0;
+  border-width: 30px 0 30px 30px;
+  border-color: transparent transparent transparent #ffd700; /* Slightly different yellow */
+}
+
+
+/* Additional triangles (4 more) */
+.hero-extra {
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.hero-extra.one {
+  top: 120px;
+  border-width: 30px 0 30px 30px;
+  border-color: transparent transparent transparent #f7f452;
+}
+
+.hero-extra.two {
+  top: 180px;
+  border-width: 30px 0 30px 30px;
+  border-color: transparent transparent transparent #ffd700;
+}
+
+.hero-extra.three {
+  top: 240px;
+  border-width: 30px 0 30px 30px;
+  border-color: transparent transparent transparent #f7f452;
+}
+
+
+
+
+
+
+
+/* Randomly Positioned Triangles for Tools Section */
+.tools {
+  position: relative;
+  background: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.tools::before,
+.tools::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.tools::before {
+  top: 30%;
+  left: 10%;
+  border-width: 30px 40px 30px 0; /* Larger green triangle */
+  border-color: transparent #479b48 transparent transparent;
+}
+
+.tools::after {
+  bottom: 20%;
+  right: 15%;
+  border-width: 30px 0 30px 40px; /* Larger yellow triangle */
+  border-color: transparent transparent transparent #f7f452;
+}
+
+
+/* Tools Section */
+.tools {
+  background: white;
+  padding: 80px 20px;
+  text-align: center;
+  position: relative; /* For triangle positioning */
+}
+
+/* Center the headline */
+.tools-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px; /* Adds space below the title */
+}
+
+/* Layout for calculators */
+.tools-grid {
+  display: flex; /* Align calculators horizontally */
+  gap: 40px; /* Add spacing between the calculators */
+  justify-content: center; /* Center the calculators horizontally */
+  flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+}
+
+.tool {
+  max-width: 300px; /* Optional: Restricts calculator card width */
+  text-align: center;
+  margin: 0 auto; /* Ensures proper alignment if wrapping occurs */
+}
+
+.tool p {
+  margin: 15px 0 25px; /* Adds space between text and the button */
+}
+
+.tool img {
+  height: 90px; /* Adjust logo size */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.tool-button {
+  background: #f7f452; /* Yellow */
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 15px;
+  display: inline-block; /* Prevents button from stretching */
+}
+.tool-button:hover {
+  background: #ffd700; /* Hover effect for button */
+}
+
+
+
+/* About Section */
+.about {
+  padding: 50px 0;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+/* Contact Section */
+.contact {
+  background: #f9f9f9;
+  padding: 80px 20px;
+}
+
+.contact .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-wrapper {
+  display: flex; /* Divide into two halves */
+  gap: 40px; /* Space between the two halves */
+  justify-content: space-between;
+  flex-wrap: wrap; /* Stack on smaller screens */
+}
+
+.contact-form,
+.contact-links {
+  flex: 1; /* Equal width for both sections */
+  max-width: 500px; /* Optional: Restrict the maximum width */
+}
+
+.contact-form h2,
+.contact-links h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Spacing between fields */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 100px;
+  resize: none; /* Prevent resizing */
+}
+
+.contact-form button {
+  background: #479b48; /* Green button */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #569b57; /* Darker green on hover */
+}
+
+.contact-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-links li {
+  margin-bottom: 15px;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.contact-links a img {
+  height: 40px; /* Icon size */
+  width: 40px;
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.contact-links a:hover {
+  color: #479b48; /* Change color on hover */
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Sparkle Base Styles */
+.sparkle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 1;
+  transform-origin: center;
+  /*animation: sparkle-animation 0.8s ease-out forwards;*/
+  animation: sparkle-animation 0.6s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+
+  
+}
+
+
+/* Calculator Toggle Buttons */
+.calculator-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.calc-button {
+  background: #f7f452;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calc-button.active {
+  background: #479b48;
+  color: white;
+}
+
+.calc-button:hover {
+  background: #ffd700;
+}
+
+/* Calculator Form */
+.calculator {
+  text-align: center;
+}
+
+.calculator form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.calculator form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.calculator form select,
+.calculator form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+
+/* Grafico de Inflacion Mensual */
+#chart-container {
+  text-align: center;
+  padding: 40px;
+  border-top: 20px ;
+  margin-top: 20px;
+}
+
+#inflation-chart {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+/* Resultados comparación */
+#salary-comparison-container h2 {
+  margin-bottom: 10px;
+}
+
+#salary-comparison-container h4 {
+  margin-bottom: 10px;
+}
+
+#salary-comparison-container p {
+  margin-bottom: 10px;
+}
+
+#salary-comparison-container label {
+  margin-top: 20px;
+}
+
+
+#results h2 {
+  margin-bottom: 20px;
+}
+
+#results p {
+  margin-bottom: 10px;
+}
+
+
+#salary-results p {
+  margin-bottom: 20px;
+}
+
+#results {
+  border: none; /* Removes any border around the results section */
+}
+
+#results hr {
+  display: none; /* Hides any horizontal rule if present */
+}
+
+
+
+#anana-borde-amarillo {
+  display: none; /* Hidden by default */
+  margin: 15px auto; /* Centers the image horizontally */
+  height: 20px; /* Adjust height */
+  width: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure it's treated as a block element for centering */
+}
+
+
+#anana-borde-verde {
+  display: none; /* Hidden by default */
+  margin: 15px auto; /* Centers the image horizontally */
+  height: 20px; /* Adjust height */
+  width: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure it's treated as a block element for centering */
+}
+
+
+
+
+
+
+
+/* Curvy Path Animation */
+@keyframes sparkle-animation {
+  0% {
+    transform: translate(0, 0) scale(1); /* Start at origin */
+    opacity: 1;
+  }
+  25% {
+    transform: translate(calc(var(--x) * 0.5), calc(-50px)) scale(1.1); /* Peak height */
+    opacity: 0.9;
+  }
+  50% {
+    transform: translate(calc(var(--x) * 0.8), calc(-30px)) scale(0.9); /* Begin descent */
+    opacity: 0.8;
+  }
+  75% {
+    transform: translate(calc(var(--x) * 1.1), calc(-15px)) scale(0.7); /* Curve downwards */
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(calc(var(--x) * 1.5), calc(40px)) scale(0.5); /* Land and disappear */
+    opacity: 0;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Stack logo and navigation vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  header ul {
+    margin-top: 10px; /* Add spacing between logo and navigation */
+  }
+
+  .contact-form,
+  .contact-links {
+    max-width: 100%; /* Allow full width on small screens */
+  }
+}
