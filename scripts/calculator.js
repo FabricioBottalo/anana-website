@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Get sorted columns for calculations
       const sortedColumns = getLastColumn(baseData);
       const [firstMonthOfYear, lastMonth, previousMonth, lastYearSameMonth] = [
-        sortedColumns[sortedColumns.length - 11],
+        sortedColumns[sortedColumns.length - 13],
         sortedColumns[sortedColumns.length - 1],
         sortedColumns[sortedColumns.length - 2],
         sortedColumns[sortedColumns.length - 13]
@@ -386,3 +386,4 @@ document.addEventListener("DOMContentLoaded", () => {
     resultContainer.style.display = "block";
   });
 });
+
