@@ -458,9 +458,9 @@ footer {
 
 #inflation-chart {
   max-width: 800px;
+  max-height: 400px;
   margin: 0 auto;
 }
-
 
 
 /* Resultados comparación */
@@ -501,7 +501,6 @@ footer {
 #results hr {
   display: none; /* Hides any horizontal rule if present */
 }
-
 
 
 #anana-borde-amarillo {
@@ -557,14 +556,156 @@ footer {
   header {
     flex-direction: column; /* Stack logo and navigation vertically */
     align-items: flex-start; /* Align items to the left */
+    gap: 10px; /* Reduce spacing for smaller screens */
   }
 
   header ul {
     margin-top: 10px; /* Add spacing between logo and navigation */
+    font-size: 12px;
+  }
+
+
+  
+
+  header .logo {
+    margin-bottom: 10px; /* Add space below the logo */
+    height: 40px;
+    width: auto; /* Maintain aspect ratio */
   }
 
   .contact-form,
   .contact-links {
     max-width: 100%; /* Allow full width on small screens */
   }
+
+  /* Triangles */
+  header::before,
+  header::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+   border-style: solid;
+  }
+
+  header::before {
+   top: 0px;
+   left: 0;
+   border-width: 25px 0 25px 25px; /* Triangles for left */
+   border-color: transparent transparent transparent #479b48; /* Green triangle */
+  }
+
+  header::after {
+    top: 50px;
+    left: 0;
+    border-width: 25px 0 25px 25px;
+    border-color: transparent transparent transparent #569b57; /* Slightly different green */
+  }
+
+  /* Triangles for Hero Section */
+
+  .hero::before,
+  .hero::after {
+   content: '';
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-style: solid;
+  }
+
+  .hero::before {
+    top: 0px;
+    left: 0;
+    border-width: 25px 0 25px 25px; /* Triangles for right */
+    border-color: transparent transparent transparent #f7f452 ; /* Yellow triangle */
+  }
+
+  .hero::after {
+    top: 50px;
+    left: 0;
+    border-width: 25px 0 25px 25px;
+    border-color: transparent transparent transparent #ffd700; /* Slightly different yellow */
+  }
+  /* Additional triangles (4 more) */
+  .hero-extra {
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+
+  .hero-extra.one {
+    top: 100px;
+    border-width: 25px 0 25px 25px;
+    border-color: transparent transparent transparent #f7f452;
+  }
+
+  .hero-extra.two {
+    top: 150px;
+    border-width: 25px 0 25px 25px;
+    border-color: transparent transparent transparent #ffd700;
+  }
+
+  .hero-extra.three {
+    top: 200px;
+    border-width: 25px 0 25px 25px;
+    border-color: transparent transparent transparent #f7f452;
+  }
+
+  .hero-extra.four {
+    top: 250px;
+    border-width: 25px 0 25px 25px;
+    border-color: transparent transparent transparent #ffd700;
+  }
+
+  .hero-extra.five {
+    top: 300px;
+   border-width: 25px 0 25px 25px;
+   border-color: transparent transparent transparent #f7f452;
+  }
+
+  /* Triangles for tool section */
+
+  .tools::before {
+    top: 28%;
+    left: 10%;
+    border-width: 25px 33px 25px 0; /* Larger green triangle */
+    border-color: transparent transparent transparent transparent;
+  }
+  
+  .tools::after {
+    bottom: 30%;
+    right: 10%;
+    border-width: 25px 0 25px 33px; /* Larger yellow triangle */
+    border-color: transparent transparent transparent transparent;
+  }
+  
+  /*Calculadora personal */ 
+
+
+  #inflation-chart {
+    max-height: 360px;
+    max-width: 360px;
+    margin-left: -65px;
+  }
+  
+  
+  #anana-borde-amarillo {
+    display: none; /* Hidden by default */
+    margin: 15px auto; /* Centers the image horizontally */
+    height: 9px; /* Adjust height */
+    width: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it's treated as a block element for centering */
+  }
+  
+  
+  #anana-borde-verde {
+    display: none; /* Hidden by default */
+    margin: 15px auto; /* Centers the image horizontally */
+    height: 8px; /* Adjust height */
+    width: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it's treated as a block element for centering */
+  }
+
 }
