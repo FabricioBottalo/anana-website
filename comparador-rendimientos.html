@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananá - Compará las tasas de los principales activos!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+     <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="assets/logo.png" alt="Anana Logo" class="logo" href="index.html">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#tools">Herramientas</a></li>
+                    <li><a href="index.html#about">Acerca de</a></li>
+                    <li><a href="index.html#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Compara Rendimientos</h1>
+        <h3>(En construcción)</h3>
+        <img src="assets/home-logo.png" alt="Anana Logo" class="anana-logo" style="height: 70px; width: auto;">
+      </div>
+      <div class="hero-extra one"></div>
+      <div class="hero-extra two"></div>
+      <div class="hero-extra three"></div>
+      <div class="hero-extra four"></div>
+      <div class="hero-extra five"></div>
+    </section>
+
+    
+
+    <!-- Table Section -->
+    <section class="rate-comparison">
+        <div class="container">
+            <h1>Compara las tasas de los distintos activos</h1>
+            <div class="category-buttons">
+                <button class="category-button active" data-category="todos">Todos los activos</button>
+                <button class="category-button" data-category="plazos_fijos">Plazos Fijos</button>
+                <button class="category-button" data-category="billeteras">Billeteras</button>
+                <button class="category-button" data-category="otros_activos">Otros Activos Financieros</button>
+            </div>
+            
+            <div id="extra-filters">
+                <div id="plazo-fijo-options" class="filter-options">
+                    <input type="checkbox" id="include-no-client"> <label for="include-no-client">Incluir tasas para No-Clientes</label>
+                </div>
+                <div id="billeteras-options" class="filter-options">
+                    <input type="checkbox" id="no-interest-limit"> <label for="no-interest-limit">No Interest Limit</label><br>
+                    <input type="checkbox" id="exclude-differential"> <label for="exclude-differential">Don't Include Differential Rates</label>
+                </div>
+            </div>
+
+
+
+
+            <div id="rates-list" class="rates-container">
+                <!-- Dynamic content inserted here -->
+            </div>
+            
+
+             <!--<table>
+                <thead>
+                    <tr>
+                        <th>Activo</th>
+                        <th>ANR</th>
+                        <th>MER</th>
+                    </tr>
+                </thead>
+                <tbody id="rates-table">
+                     Data will be inserted dynamically 
+                </tbody>
+            </table> -->
+        </div>
+    </section>
+    
+    <script src="scripts/rate_comparison.js"></script>
+
+
+    <style>
+        .category-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .category-button {
+            background-color: #f7f452;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .category-button:hover {
+            background-color: #ffd700;
+        }
+        .category-button.active {
+            background-color: #4caf50;
+            color: white;
+        }
+    </style>
+
+
+</body>
+</html>
