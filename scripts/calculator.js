@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Get sorted columns for calculations
       const sortedColumns = getLastColumn(baseData);
       const [firstMonthOfYear, lastMonth, previousMonth, lastYearSameMonth] = [
-        sortedColumns[sortedColumns.length - 13],
+        sortedColumns[sortedColumns.length - 2], //Este va cambiando
         sortedColumns[sortedColumns.length - 1],
         sortedColumns[sortedColumns.length - 2],
         sortedColumns[sortedColumns.length - 13]
@@ -206,7 +206,10 @@ async function renderChart(region) {
       return;
     }
 
-    const months = Object.keys(regionData).filter((key) => key.includes("'24"));
+    const mesesselected = ["Enero '24", "Febrero '24", "Marzo '24", "Abril '24", "Mayo '24", "Junio '24",
+      "Julio '24", "Agosto '24", "Septiembre '24", "Octubre '24", "Noviembre '24", "Diciembre '24", "Enero '25"]
+
+    const months = Object.keys(regionData).filter((key) => mesesselected.includes(key));
     const inflationValues = months.map((month) => regionData[month] * 100);
 
     // Display the chart container
