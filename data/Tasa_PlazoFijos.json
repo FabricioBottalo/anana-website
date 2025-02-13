@@ -1,0 +1,170 @@
+[
+    {
+        "Bank_Name":"BANCO HIPOTECARIO S.A. (NO CLIENT)",
+        "Commercial_Name":"HIPOTECARIO (NO CLIENTE)",
+        "TNA":33.0,
+        "TEM":2.75
+    },
+    {
+        "Bank_Name":"REBA COMPA\u00d1IA FINANCIERA S.A.",
+        "Commercial_Name":"REBA",
+        "TNA":32.0,
+        "TEM":2.6666666667
+    },
+    {
+        "Bank_Name":"BANCO VOII S.A.",
+        "Commercial_Name":"VOII",
+        "TNA":32.0,
+        "TEM":2.6666666667
+    },
+    {
+        "Bank_Name":"BANCO MERIDIAN S.A.",
+        "Commercial_Name":"MERIDIAN",
+        "TNA":32.0,
+        "TEM":2.6666666667
+    },
+    {
+        "Bank_Name":"CR\u00c9DITO REGIONAL COMPA\u00d1\u00cdA FINANCIERA S.A.U.",
+        "Commercial_Name":"CR\u00c9DITO REGIONAL",
+        "TNA":31.0,
+        "TEM":2.5833333333
+    },
+    {
+        "Bank_Name":"BANCO DE CORRIENTES S.A.",
+        "Commercial_Name":"BANCO DE CORRIENTES",
+        "TNA":31.0,
+        "TEM":2.5833333333
+    },
+    {
+        "Bank_Name":"BANCO DEL CHUBUT S.A.",
+        "Commercial_Name":"BANCO DEL CHUBUT",
+        "TNA":30.5,
+        "TEM":2.5416666667
+    },
+    {
+        "Bank_Name":"BANCO BICA S.A.",
+        "Commercial_Name":"BICA",
+        "TNA":30.5,
+        "TEM":2.5416666667
+    },
+    {
+        "Bank_Name":"BIBANK S.A.",
+        "Commercial_Name":"BIBANK",
+        "TNA":30.0,
+        "TEM":2.5
+    },
+    {
+        "Bank_Name":"BANCO CMF S.A.",
+        "Commercial_Name":"CMF",
+        "TNA":30.0,
+        "TEM":2.5
+    },
+    {
+        "Bank_Name":"BANCO MACRO S.A.",
+        "Commercial_Name":"MACRO",
+        "TNA":29.5,
+        "TEM":2.4583333333
+    },
+    {
+        "Bank_Name":"BANCO JULIO SOCIEDAD ANONIMA",
+        "Commercial_Name":"BANCO JULIO",
+        "TNA":29.5,
+        "TEM":2.4583333333
+    },
+    {
+        "Bank_Name":"BANCO PROVINCIA DE TIERRA DEL FUEGO",
+        "Commercial_Name":"BANCO DE TIERRA DEL FUEGO",
+        "TNA":29.0,
+        "TEM":2.4166666667
+    },
+    {
+        "Bank_Name":"BANCO HIPOTECARIO S.A.",
+        "Commercial_Name":"HIPOTECARIO",
+        "TNA":29.0,
+        "TEM":2.4166666667
+    },
+    {
+        "Bank_Name":"BANCO DINO S.A.",
+        "Commercial_Name":"BANCO DINO",
+        "TNA":29.0,
+        "TEM":2.4166666667
+    },
+    {
+        "Bank_Name":"BANCO DE LA PROVINCIA DE CORDOBA S.A.",
+        "Commercial_Name":"BANCOR",
+        "TNA":29.0,
+        "TEM":2.4166666667
+    },
+    {
+        "Bank_Name":"BANCO COMAFI SOCIEDAD ANONIMA",
+        "Commercial_Name":"COMAFI",
+        "TNA":28.5,
+        "TEM":2.375
+    },
+    {
+        "Bank_Name":"BANCO DE LA PROVINCIA DE BUENOS AIRES",
+        "Commercial_Name":"BANCO PROVINCIA",
+        "TNA":28.5,
+        "TEM":2.375
+    },
+    {
+        "Bank_Name":"BANCO DEL SOL S.A.",
+        "Commercial_Name":"BANCO DEL SOL",
+        "TNA":28.0,
+        "TEM":2.3333333333
+    },
+    {
+        "Bank_Name":"BANCO DE LA CIUDAD DE BUENOS AIRES",
+        "Commercial_Name":"BANCO CIUDAD",
+        "TNA":28.0,
+        "TEM":2.3333333333
+    },
+    {
+        "Bank_Name":"BANCO CREDICOOP COOPERATIVO LIMITADO",
+        "Commercial_Name":"CREDICOOP",
+        "TNA":28.0,
+        "TEM":2.3333333333
+    },
+    {
+        "Bank_Name":"BANCO BBVA ARGENTINA S.A.",
+        "Commercial_Name":"BBVA",
+        "TNA":28.0,
+        "TEM":2.3333333333
+    },
+    {
+        "Bank_Name":"BANCO DE LA NACION ARGENTINA",
+        "Commercial_Name":"NACI\u00d3N",
+        "TNA":28.0,
+        "TEM":2.3333333333
+    },
+    {
+        "Bank_Name":"INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+        "Commercial_Name":"ICBC",
+        "TNA":27.8,
+        "TEM":2.3166666667
+    },
+    {
+        "Bank_Name":"Banco GGAL SA",
+        "Commercial_Name":"HSBC",
+        "TNA":27.5,
+        "TEM":2.2916666667
+    },
+    {
+        "Bank_Name":"BANCO DE GALICIA Y BUENOS AIRES S.A.U.",
+        "Commercial_Name":"GALICIA",
+        "TNA":27.5,
+        "TEM":2.2916666667
+    },
+    {
+        "Bank_Name":"BANCO SANTANDER ARGENTINA S.A.",
+        "Commercial_Name":"SANTANDER",
+        "TNA":27.0,
+        "TEM":2.25
+    },
+    {
+        "Bank_Name":"BANCO MASVENTAS S.A.",
+        "Commercial_Name":"MASVENTAS",
+        "TNA":23.5,
+        "TEM":1.9583333333
+    }
+]
