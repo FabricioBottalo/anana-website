@@ -46,9 +46,15 @@ document.addEventListener("DOMContentLoaded", function () {
             anr.classList.add("rate");
             anr.innerHTML = `<strong>${asset.TNA.toFixed(2)}%</strong>`;
 
+            const tnaname = document.createElement("span")
+            tnaname.textContent = "TNA        -         "
+
             const mer = document.createElement("div");
             mer.classList.add("rate");
             mer.innerHTML = `<strong>${asset.TEM.toFixed(2)}%</strong>`;
+
+            const temname = document.createElement("span")
+            temname.textContent = "TEM"
 
             // Tag Column
             const limitTag = document.createElement("span");
@@ -63,6 +69,8 @@ document.addEventListener("DOMContentLoaded", function () {
             card.appendChild(anr);
             card.appendChild(mer);
             name.appendChild(limitTag);
+            anr.appendChild(tnaname);
+            mer.appendChild(temname);
 
             // Append card to the list
             ratesList.appendChild(card);
