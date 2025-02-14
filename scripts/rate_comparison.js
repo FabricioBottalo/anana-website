@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     async function fetchRates() {
         try {
-            const response = await fetch("data/rates.json");
+            const response = await fetch("data/Rates.json");
             assetsData = await response.json();
             console.log("Fetched data:", assetsData);
             updateTable("todos");
