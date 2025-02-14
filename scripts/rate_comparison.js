@@ -33,18 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
             const card = document.createElement("div");
             card.classList.add("rate-card");
 
-            const normalizeName = asset.Commercial_Name
-                .normalize("NFD").replace(/[\u0300-\u036f]/g, '')  // Remove accents
-                .replace(/\s+/g, '_')                               // Replace spaces with underscores
-                .replace(/[^a-z0-9_]/g, '');                        // Remove special characters
-
-            const logoPath = `assets/LOGOS/${normalizeName}.png`;
-            console.log("Checking logo path:", logoPath); // Debugging
             const logo = document.createElement("img");
-            logo.src = logoPath;
-            logo.alt = asset.Commercial_Name;
+            logo.src = `assets/logos/${asset.Commercial_Name.replace(/\s+/g, '_').toUpperCase()}.png`;
+            //logo.alt = asset.Commercial_Name;
+            console.log("Checking logo path:", logo.src); // Debugging
             logo.classList.add("logo");
-
+            
 
             const name = document.createElement("span");
             name.textContent = asset.Commercial_Name;
