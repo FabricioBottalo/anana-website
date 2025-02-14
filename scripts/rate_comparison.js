@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const normalizeName = asset.Commercial_Name
                 .normalize("NFD").replace(/[\u0300-\u036f]/g, '')  // Remove accents
-                .toUpperCase()                                      // Convert to lowercase
                 .replace(/\s+/g, '_')                               // Replace spaces with underscores
                 .replace(/[^a-z0-9_]/g, '');                        // Remove special characters
 
