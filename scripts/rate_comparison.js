@@ -33,12 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const card = document.createElement("div");
             card.classList.add("rate-card");
 
-            const logoPath = `assets/LOGOS/${asset.Commercial_Name.replace(/\s+/g, '_').toLowerCase()}.png`;
-            console.log("Checking logo path:", logoPath); // Debugging
-            logo.src = logoPath;
-            
             const logo = document.createElement("img");
-            logo.src = `assets/LOGOS/${asset.Commercial_Name.replace(/\s+/g, '_').toLowerCase()}.png`;
+            logo.src = `assets/logos/${asset.Commercial_Name.replace(/\s+/g, '_').toUpperCase()}.png`;
             logo.alt = asset.Commercial_Name;
             logo.classList.add("logo");
 
