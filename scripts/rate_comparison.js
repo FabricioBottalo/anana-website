@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
             card.classList.add("rate-card");
 
             const logo = document.createElement("img");
-            logo.src = `assets/logos/${asset.Commercial_Name.replace(/\s+/g, '_').toUpperCase()}.png`;
+            logo.src = `assets/LOGOS/${asset.Commercial_Name.replace(/\s+/g, '_').toUpperCase()}.png`;
             //logo.alt = asset.Commercial_Name;
             console.log("Checking logo path:", logo.src); // Debugging
             logo.classList.add("logo");
