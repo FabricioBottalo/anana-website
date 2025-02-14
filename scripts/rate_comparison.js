@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const normalizeName = asset.Commercial_Name
                 .normalize("NFD").replace(/[\u0300-\u036f]/g, '')  // Remove accents
-                .toLowerCase()                                      // Convert to lowercase
-              .replace(/\s+/g, '_')                               // Replace spaces with underscores
-               .replace(/[^a-z0-9_]/g, '');                        // Remove special characters
+                .toUpperCase()                                      // Convert to lowercase
+                .replace(/\s+/g, '_')                               // Replace spaces with underscores
+                .replace(/[^a-z0-9_]/g, '');                        // Remove special characters
 
             const logoPath = `assets/LOGOS/${normalizeName}.png`;
             console.log("Checking logo path:", logoPath); // Debugging
