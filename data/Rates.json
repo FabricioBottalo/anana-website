@@ -1,7 +1,7 @@
 [
     {
         "Bank_Name":"BANCO DE LA NACION ARGENTINA",
-        "Commercial_Name":"NACI\u00d3N",
+        "Commercial_Name":"NACIÓN",
         "TNA":25.0,
         "TEM":2.0833333333,
         "Category":"Banco",
@@ -49,7 +49,7 @@
     },
     {
         "Bank_Name":"Banco GGAL SA",
-        "Commercial_Name":"GALICIA M\u00c1S",
+        "Commercial_Name":"GALICIA MÁS",
         "TNA":25.0,
         "TEM":2.0833333333,
         "Category":"Banco",
@@ -208,15 +208,15 @@
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
-        "Bank_Name":"CR\u00c9DITO REGIONAL COMPA\u00d1\u00cdA FINANCIERA S.A.U.",
-        "Commercial_Name":"CR\u00c9DITO REGIONAL",
+        "Bank_Name":"CRÉDITO REGIONAL COMPAÑÍA FINANCIERA S.A.U.",
+        "Commercial_Name":"CRÉDITO REGIONAL",
         "TNA":29.0,
         "TEM":2.4166666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
-        "Bank_Name":"REBA COMPA\u00d1IA FINANCIERA S.A.",
+        "Bank_Name":"REBA COMPAÑÍA FINANCIERA S.A.",
         "Commercial_Name":"REBA",
         "TNA":29.0,
         "TEM":2.4166666667,
@@ -224,8 +224,8 @@
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
-        "Bank_Name":"UAL\u00c1 (UILO)",
-        "Commercial_Name":"UAL\u00c1 (UILO)",
+        "Bank_Name":"UALÁ (UILO)",
+        "Commercial_Name":"UALÁ (UILO)",
         "TNA":28.0,
         "TEM":2.3333333333,
         "Category":"Banco",
@@ -248,152 +248,152 @@
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
-        "Bank_Name":"UVA (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"UVA (ULT. 7 D\u00cdAS)",
+        "Bank_Name":"UVA (ULT. 7 DÍAS)",
+        "Commercial_Name":"UVA (ULT. 7 DÍAS)",
         "TNA":31.40614072,
         "TEM":2.6579296024,
         "Category":"Otros Activos",
         "Tags":"[\"PF UVA\"]"
     },
     {
-        "Bank_Name":"UVA (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"UVA (ULT. 30 D\u00cdAS)",
+        "Bank_Name":"UVA (ULT. 30 DÍAS)",
+        "Commercial_Name":"UVA (ULT. 30 DÍAS)",
         "TNA":32.8987129364,
         "TEM":2.7859334584,
         "Category":"Otros Activos",
         "Tags":"[\"PF UVA\"]"
     },
     {
-        "Bank_Name":"UVA (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"UVA (ULT. 90 D\u00cdAS)",
+        "Bank_Name":"UVA (ULT. 90 DÍAS)",
+        "Commercial_Name":"UVA (ULT. 90 DÍAS)",
         "TNA":30.7486902998,
         "TEM":2.6015952018,
         "Category":"Otros Activos",
         "Tags":"[\"PF UVA\"]"
     },
     {
-        "Bank_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 7 D\u00cdAS)",
+        "Bank_Name":"DÓLAR BLUE - COMPRA Y VENTA (ULT. 7 DÍAS)",
+        "Commercial_Name":"DÓLAR BLUE - COMPRA Y VENTA (ULT. 7 DÍAS)",
         "TNA":-86.4436231415,
         "TEM":-6.976625341,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 7 D\u00cdAS)",
+        "Bank_Name":"DÓLAR BLUE - PRECIO VENTA (ULT. 7 DÍAS)",
+        "Commercial_Name":"DÓLAR BLUE - PRECIO VENTA (ULT. 7 DÍAS)",
         "TNA":0.0,
         "TEM":0.0,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 30 D\u00cdAS)",
+        "Bank_Name":"DÓLAR BLUE - COMPRA Y VENTA (ULT. 30 DÍAS)",
+        "Commercial_Name":"DÓLAR BLUE - COMPRA Y VENTA (ULT. 30 DÍAS)",
         "TNA":-30.154371807,
         "TEM":-2.4892836677,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 30 D\u00cdAS)",
+        "Bank_Name":"DÓLAR BLUE - PRECIO VENTA (ULT. 30 DÍAS)",
+        "Commercial_Name":"DÓLAR BLUE - PRECIO VENTA (ULT. 30 DÍAS)",
         "TNA":-9.9713711529,
         "TEM":-0.8298753632,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 90 D\u00cdAS)",
+        "Bank_Name":"DÓLAR BLUE - COMPRA Y VENTA (ULT. 90 DÍAS)",
+        "Commercial_Name":"DÓLAR BLUE - COMPRA Y VENTA (ULT. 90 DÍAS)",
         "TNA":19.1139383768,
         "TEM":1.6095906197,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 90 D\u00cdAS)",
+        "Bank_Name":"DÓLAR BLUE - PRECIO VENTA (ULT. 90 DÍAS)",
+        "Commercial_Name":"DÓLAR BLUE - PRECIO VENTA (ULT. 90 DÍAS)",
         "TNA":25.8494515261,
         "TEM":2.1827388314,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 7 D\u00cdAS)",
+        "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 7 DÍAS)",
+        "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 7 DÍAS)",
         "TNA":38.5605216448,
         "TEM":3.2728983788,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 7 D\u00cdAS)",
+        "Bank_Name":"DÓLAR MEP - PRECIO VENTA (ULT. 7 DÍAS)",
+        "Commercial_Name":"DÓLAR MEP - PRECIO VENTA (ULT. 7 DÍAS)",
         "TNA":-14.5234311565,
         "TEM":-1.2065059334,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 30 D\u00cdAS)",
+        "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 30 DÍAS)",
+        "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 30 DÍAS)",
         "TNA":29.1714212928,
         "TEM":2.4665669663,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 30 D\u00cdAS)",
+        "Bank_Name":"DÓLAR MEP - PRECIO VENTA (ULT. 30 DÍAS)",
+        "Commercial_Name":"DÓLAR MEP - PRECIO VENTA (ULT. 30 DÍAS)",
         "TNA":16.7814462459,
         "TEM":1.41183656,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 90 D\u00cdAS)",
+        "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 90 DÍAS)",
+        "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 90 DÍAS)",
         "TNA":26.4415372351,
         "TEM":2.2332707135,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 90 D\u00cdAS)",
+        "Bank_Name":"DÓLAR MEP - PRECIO VENTA (ULT. 90 DÍAS)",
+        "Commercial_Name":"DÓLAR MEP - PRECIO VENTA (ULT. 90 DÍAS)",
         "TNA":22.3113872034,
         "TEM":1.881283891,
         "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
+        "Tags":"[\"Dólar\"]"
     },
     {
-        "Bank_Name":"\u00cdNCIDE MERVAL (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"\u00cdNCIDE MERVAL (ULT. 7 D\u00cdAS)",
+        "Bank_Name":"ÍNCIDE MERVAL (ULT. 7 DÍAS)",
+        "Commercial_Name":"ÍNCIDE MERVAL (ULT. 7 DÍAS)",
         "TNA":-458.9430567756,
         "TEM":-32.0183105971,
         "Category":"Otros Activos",
-        "Tags":"[\"\u00cdndice\"]"
+        "Tags":"[\"Índice\"]"
     },
     {
-        "Bank_Name":"\u00cdNCIDE MERVAL (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"\u00cdNCIDE MERVAL (ULT. 30 D\u00cdAS)",
+        "Bank_Name":"ÍNCIDE MERVAL (ULT. 30 DÍAS)",
+        "Commercial_Name":"ÍNCIDE MERVAL (ULT. 30 DÍAS)",
         "TNA":-188.2926804263,
         "TEM":-14.5934761589,
         "Category":"Otros Activos",
-        "Tags":"[\"\u00cdndice\"]"
+        "Tags":"[\"Índice\"]"
     },
     {
-        "Bank_Name":"\u00cdNCIDE MERVAL (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"\u00cdNCIDE MERVAL (ULT. 90 D\u00cdAS)",
+        "Bank_Name":"ÍNCIDE MERVAL (ULT. 90 DÍAS)",
+        "Commercial_Name":"ÍNCIDE MERVAL (ULT. 90 DÍAS)",
         "TNA":54.5062667713,
         "TEM":4.6563938648,
         "Category":"Otros Activos",
-        "Tags":"[\"\u00cdndice\"]"
+        "Tags":"[\"Índice\"]"
     },
     {
         "Bank_Name":null,
-        "Commercial_Name":"UAL\u00c1",
+        "Commercial_Name":"UALÁ",
         "TNA":32.0,
         "TEM":2.71,
         "Category":"Billetera",
@@ -481,7 +481,7 @@
     },
     {
         "Bank_Name":null,
-        "Commercial_Name":"NARANJA X (FRASCO A 28 D\u00cdAS)",
+        "Commercial_Name":"NARANJA X (FRASCO A 28 DÍAS)",
         "TNA":31.0,
         "TEM":2.62,
         "Category":"Billetera",
@@ -489,7 +489,7 @@
     },
     {
         "Bank_Name":null,
-        "Commercial_Name":"NARANJA X (FRASCO A 14 D\u00cdAS)",
+        "Commercial_Name":"NARANJA X (FRASCO A 14 DÍAS)",
         "TNA":30.0,
         "TEM":2.54,
         "Category":"Billetera",
