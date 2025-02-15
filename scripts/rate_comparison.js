@@ -33,10 +33,27 @@ document.addEventListener("DOMContentLoaded", function () {
             const card = document.createElement("div");
             card.classList.add("rate-card");
 
+            function fixEncodedCharacters(name) {
+                return name
+                    .replace(/%C3%8D/g, "Í")
+                    .replace(/%C3%81/g, "Á")
+                    .replace(/%C3%89/g, "É")
+                    .replace(/%C3%93/g, "Ó")
+                    .replace(/\s+/g, '_')  // Replace spaces with underscores
+                    .toUpperCase();        // Convert to lowercase
+            }
+
+            // Normalize the logo name
             const logo = document.createElement("img");
-            logo.src = `assets/LOGOS/${asset.Commercial_Name.replace(/\s+/g, '_').toUpperCase()}.png`;
+            const normalizedName = fixEncodedCharacters(encodeURIComponent(asset.Commercial_Name));
+            logo.src = `assets/LOGOS/${normalizedName}.png`;
+
+            console.log("Checking logo path:", logoPath); // Debugging
+
+            //const logo = document.createElement("img");
+            //logo.src = `assets/LOGOS/${asset.Commercial_Name.replace(/\s+/g, '_').toUpperCase()}.png`;
             //logo.alt = asset.Commercial_Name;
-            console.log("Checking logo path:", logo.src); // Debugging
+            //console.log("Checking logo path:", logo.src); // Debugging
             logo.classList.add("logo");
             
 
