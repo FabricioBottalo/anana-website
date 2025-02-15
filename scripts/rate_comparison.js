@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
             const logo = document.createElement("img");
-            logo.src = `assets/LOGOS/${asset.Commercial_Name.replace(/\s+/g, '_').replace(/"Ó"/g, "O").replace(/"É"/g, "E").replace(/"Á"/g, "A").replace(/"Í"/g, "I").toUpperCase()}.png`;
+            logo.src = `assets/LOGOS/${asset.Commercial_Name.replace(/\s+/g, '_').replace(/Ó/g, "O").replace(/É/g, "E").replace(/Á/g, "A").replace(/Í/g, "I").toUpperCase()}.png`;
             //logo.alt = asset.Commercial_Name;
             console.log("Checking logo path:", logo.src); // Debugging
             logo.classList.add("logo");
