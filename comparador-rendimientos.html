@@ -30,7 +30,7 @@
       <div class="container">
         <h1>Compara Rendimientos</h1>
         <h3>(En construcción)</h3>
-        <img src="assets/home-logo.png" alt="Anana Logo" class="anana-logo" style="height: 70px; width: auto;">
+        <img src="assets/home-logo-white.png" alt="Anana Logo" class="anana-logo" style="height: 70px; width: auto;">
       </div>
       <div class="hero-extra one"></div>
       <div class="hero-extra two"></div>
@@ -54,11 +54,11 @@
             
             <div id="extra-filters">
                 <div id="plazo-fijo-options" class="filter-options">
-                    <input type="checkbox" id="include-no-client"> <label for="include-no-client">Incluir tasas para No-Clientes</label>
+                    <input type="checkbox" id="no-include-no-client"> <label for="no-include-no-client">Solo incluir tasas para clientes.</label>
                 </div>
                 <div id="billeteras-options" class="filter-options">
-                    <input type="checkbox" id="no-interest-limit"> <label for="no-interest-limit">No Interest Limit</label><br>
-                    <input type="checkbox" id="exclude-differential"> <label for="exclude-differential">Don't Include Differential Rates</label>
+                    <input type="checkbox" id="no-interest-limit"> <label for="no-interest-limit">Solo incluir aquellos que no tienen límites.</label><br>
+                    <input type="checkbox" id="exclude-differential"> <label for="exclude-differential">Solo incluir tasas básicas (no diferenciadas por condicionantes).</label>
                 </div>
             </div>
 
@@ -69,20 +69,13 @@
                 <!-- Dynamic content inserted here -->
             </div>
             
-
-             <!--<table>
-                <thead>
-                    <tr>
-                        <th>Activo</th>
-                        <th>ANR</th>
-                        <th>MER</th>
-                    </tr>
-                </thead>
-                <tbody id="rates-table">
-                     Data will be inserted dynamically 
-                </tbody>
-            </table> -->
         </div>
+
+        <!-- Disclaimer Section -->
+        <div id="disclaimer-container" class="disclaimer">
+            <p id="disclaimer-text"></p>
+        </div>
+
     </section>
     
     <script src="scripts/rate_comparison.js"></script>
@@ -113,6 +106,45 @@
             color: white;
         }
     </style>
+
+
+    <!-- Contact Section -->
+    <section id="contact-section" class="contact-container">
+        <div class="contact-logo">
+            <img src="assets/home-logo-green.png" alt="Anana Logo">
+        </div>
+
+        <div class="contact-links2">
+            <h3>Contacto</h3>
+            <ul>
+                <li>
+                    <a href="mailto:anana.finz@gmail.com">
+                        <img src="assets/mail-icon.png" alt="Mail Icon"> anana.finz@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/anana.finz/" target="_blank">
+                        <img src="assets/instagram-icon.png" alt="Instagram Icon"> Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@anana.finz" target="_blank">
+                        <img src="assets/tiktok-icon.png" alt="Tiktok Icon"> TikTok
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </section>
+
+
+    
+<!-- 100% privacy-first analytics -->
+<script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>  
+
+
 
 
 </body>
