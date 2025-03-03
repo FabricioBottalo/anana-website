@@ -22,10 +22,11 @@ document.addEventListener("DOMContentLoaded", function () {
         ratesList.innerHTML = ""; // Clear previous results
 
         let filteredAssets = assetsData.filter(asset => {
-            if (selectedCategory === "todos") return true;
+            if (selectedCategory === "todos" && asset.Category !== "FCI_Dolar") return true;
             if (selectedCategory === "plazos_fijos" && asset.Category === "Banco") return true;
             if (selectedCategory === "billeteras" && asset.Category === "Billetera") return true;
             if (selectedCategory === "otros_activos" && asset.Category === "Otros Activos") return true;
+            if (selectedCategory === "fci_usd" && asset.Category === "FCI_Dolar") return true;
             return false;
         });
 
@@ -162,7 +163,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         "otros_activos": `El propósito de este proyecto es difundir e informar sobre distintas alternativas de inversión pero no pretende en ningún caso asesorar o recomendar sobre las alternativas representadas. No es una recomendación de compra o inversión. No todas las opciones aquí representadas conllevan el mismo riesgo. Hacé tu propia investigación a la hora de invertir.<br><br>
     
-        Los datos para los rendimientos de la sección "Otros Activos" son calculados a partir de la información provista por la API de "Argentinadatos". Estos muestran la variación de precio que han tenido los distintos activos en los períodos de tiempo indicados, y cuánto rendimiento habrían generado. Estos activos pueden ser volátiles y conllevan riesgos significativos. No se garantiza que los rendimientos pasados se repitan en el futuro. Se recomienda llevar a cabo una investigación propia antes de llevar a cabo alguna acción.`
+        Los datos para los rendimientos de la sección "Otros Activos" son calculados a partir de la información provista por la API de "Argentinadatos". Estos muestran la variación de precio que han tenido los distintos activos en los períodos de tiempo indicados, y cuánto rendimiento habrían generado. Estos activos pueden ser volátiles y conllevan riesgos significativos. No se garantiza que los rendimientos pasados se repitan en el futuro. Se recomienda llevar a cabo una investigación propia antes de llevar a cabo alguna acción.`,
+
+        "fci_usd": `El propósito de este proyecto es difundir e informar sobre distintas alternativas de inversión pero no pretende en ningún caso asesorar o recomendar sobre las alternativas representadas. No es una recomendación de compra o inversión. No todas las opciones aquí representadas conllevan el mismo riesgo. Hacé tu propia investigación a la hora de invertir.<br><br>
+    
+        Los datos para los rendimientos de la sección "FCI en Dólares" son calculados a partir de la información provista por la API de "Argentinadatos", sobre variaciones de precios en las cuotapartes de los Fondos Comunes de Inversión en Dólares en el último mes. Estos activos pueden ser volátiles y conllevan riesgos significativos. No se garantiza que los rendimientos pasados se repitan en el futuro. Se recomienda llevar a cabo una investigación propia antes de llevar a cabo alguna acción.`,
     };
 
     // Function to Update the Disclaimer Text
