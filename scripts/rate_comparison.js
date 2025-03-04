@@ -54,14 +54,9 @@ document.addEventListener("DOMContentLoaded", function () {
             const card = document.createElement("div");
             card.classList.add("rate-card");
 
-
-
             const logo = document.createElement("img");
             logo.src = `assets/LOGOS/${asset.Commercial_Name.replace(/\s+/g, '_').replace(/Ó/g, "O").replace(/É/g, "E").replace(/Á/g, "A").replace(/Í/g, "I").toUpperCase()}.png`;
-            //logo.alt = asset.Commercial_Name;
-            //console.log("Checking logo path:", logo.src); // Debugging
             logo.classList.add("logo");
-            
 
             const name = document.createElement("span");
             name.textContent = asset.Commercial_Name;
@@ -69,30 +64,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const anr = document.createElement("div");
             anr.classList.add("rate");
-            anr.innerHTML = `<strong>${asset.TNA.toFixed(2)}%</strong>`;
+            //anr.innerHTML = `<strong>${asset.TNA.toFixed(2)}%</strong>`;
+            anr.innerHTML = `<strong>${asset.TNA.toFixed(2)}%</strong><br><span>TNA</span>`;
 
-            const tnaname = document.createElement("span")
-            tnaname.textContent = "TNA        ;         "
+            //const tnaname = document.createElement("span")
+            //tnaname.textContent = "TNA        ;         "
 
             const mer = document.createElement("div");
             mer.classList.add("rate");
-            mer.innerHTML = `<strong>${asset.TEM.toFixed(2)}%</strong>`;
+            mer.innerHTML = `<strong>${asset.TEM.toFixed(2)}%</strong><br><span>TEM</span>`;
 
-            const temname = document.createElement("span")
-            temname.textContent = "TEM"
+            //const temname = document.createElement("span")
+            //temname.textContent = "TEM"
 
             // Tag Column
             const tagContainer = document.createElement("div");
             tagContainer.classList.add("tag-container");    
             // Ensure Tags is an array
             let tagsArray = asset.Tags;
-            // If Tags is a string, convert it into an array
             if (typeof asset.Tags === "string") {
                 try {
-                    tagsArray = JSON.parse(asset.Tags); // Convert from string to array
+                    tagsArray = JSON.parse(asset.Tags); 
                 } catch (error) {
                     console.error("Error parsing Tags:", error);
-                    tagsArray = []; // Default to empty array if there's an issue
+                    tagsArray = []; 
                 }
             }
             
@@ -120,8 +115,8 @@ document.addEventListener("DOMContentLoaded", function () {
             card.appendChild(name);
             card.appendChild(anr);
             card.appendChild(mer);
-            anr.appendChild(tnaname);
-            mer.appendChild(temname);
+            //anr.appendChild(tnaname);
+            //mer.appendChild(temname);
 
             // Append card to the list
             ratesList.appendChild(card);
