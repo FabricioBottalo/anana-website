@@ -29,7 +29,6 @@
     <section id="home" class="hero">
       <div class="container">
         <h1>Compara Rendimientos</h1>
-        <h3>(En construcción)</h3>
         <img src="assets/home-logo-white.png" alt="Anana Logo" class="anana-logo" style="height: 70px; width: auto;">
       </div>
       <div class="hero-extra one"></div>
@@ -49,15 +48,13 @@
                 <button class="category-button active" data-category="todos">Todos los activos</button>
                 <button class="category-button" data-category="plazos_fijos">Plazos Fijos</button>
                 <button class="category-button" data-category="billeteras">Billeteras</button>
-                <button class="category-button" data-category="otros_activos">Otros Activos Financieros</button>
+                <button class="category-button" data-category="otros_activos">Otros Activos</button>
                 <button class="category-button" data-category="fci_usd">FCI en Dólares</button>
             </div>
             
             <div id="extra-filters">
                 <div id="plazo-fijo-options" class="filter-options">
-                    <input type="checkbox" id="no-include-no-client"> <label for="no-include-no-client">Solo incluir tasas para clientes.</label>
-                </div>
-                <div id="billeteras-options" class="filter-options">
+                    <input type="checkbox" id="no-include-no-client"> <label for="no-include-no-client">Solo incluir tasas para clientes.</label><br>
                     <input type="checkbox" id="no-interest-limit"> <label for="no-interest-limit">Solo incluir aquellos que no tienen límites.</label><br>
                     <input type="checkbox" id="exclude-differential"> <label for="exclude-differential">Solo incluir tasas básicas (no diferenciadas por condicionantes).</label>
                 </div>
@@ -83,29 +80,7 @@
 
 
     <style>
-        .category-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 20px;
-        }
-        .category-button {
-            background-color: #f7f452;
-            color: #333;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .category-button:hover {
-            background-color: #ffd700;
-        }
-        .category-button.active {
-            background-color: #4caf50;
-            color: white;
-        }
+
     </style>
 
 
