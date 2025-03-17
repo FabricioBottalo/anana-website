@@ -10,8 +10,8 @@
     {
         "Bank_Name":"BANCO SANTANDER ARGENTINA S.A.",
         "Commercial_Name":"SANTANDER",
-        "TNA":24.0,
-        "TEM":2.0,
+        "TNA":25.0,
+        "TEM":2.0833333333,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
@@ -258,16 +258,16 @@
     {
         "Bank_Name":"UVA (ULT. 30 D\u00cdAS)",
         "Commercial_Name":"UVA (ULT. 30 D\u00cdAS)",
-        "TNA":28.6771570616,
-        "TEM":2.4242889391,
+        "TNA":26.5848800177,
+        "TEM":2.2455080162,
         "Category":"Otros Activos",
         "Tags":"[\"PF UVA\"]"
     },
     {
         "Bank_Name":"UVA (ULT. 90 D\u00cdAS)",
         "Commercial_Name":"UVA (ULT. 90 D\u00cdAS)",
-        "TNA":29.6653060474,
-        "TEM":2.5088293935,
+        "TNA":28.6358919379,
+        "TEM":2.4207599951,
         "Category":"Otros Activos",
         "Tags":"[\"PF UVA\"]"
     },
@@ -306,16 +306,16 @@
     {
         "Bank_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 90 D\u00cdAS)",
         "Commercial_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 90 D\u00cdAS)",
-        "TNA":40.1743332626,
-        "TEM":3.4121084208,
+        "TNA":32.8923177431,
+        "TEM":2.7853846738,
         "Category":"Otros Activos",
         "Tags":"[\"D\u00f3lar\"]"
     },
     {
         "Bank_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 90 D\u00cdAS)",
         "Commercial_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 90 D\u00cdAS)",
-        "TNA":46.7767326517,
-        "TEM":3.9835348425,
+        "TNA":39.4934013537,
+        "TEM":3.3533479951,
         "Category":"Otros Activos",
         "Tags":"[\"D\u00f3lar\"]"
     },
@@ -338,32 +338,32 @@
     {
         "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 30 D\u00cdAS)",
         "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 30 D\u00cdAS)",
-        "TNA":34.3020725331,
-        "TEM":2.9064271891,
+        "TNA":35.226496251,
+        "TEM":2.9858736763,
         "Category":"Otros Activos",
         "Tags":"[\"D\u00f3lar\"]"
     },
     {
         "Bank_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 30 D\u00cdAS)",
         "Commercial_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 30 D\u00cdAS)",
-        "TNA":53.7165498858,
-        "TEM":4.5874560167,
+        "TNA":54.6414648462,
+        "TEM":4.6682003026,
         "Category":"Otros Activos",
         "Tags":"[\"D\u00f3lar\"]"
     },
     {
         "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 90 D\u00cdAS)",
         "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 90 D\u00cdAS)",
-        "TNA":51.1245018752,
-        "TEM":4.3614933111,
+        "TNA":42.6436413688,
+        "TEM":3.6254663831,
         "Category":"Otros Activos",
         "Tags":"[\"D\u00f3lar\"]"
     },
     {
         "Bank_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 90 D\u00cdAS)",
         "Commercial_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 90 D\u00cdAS)",
-        "TNA":57.5978276468,
-        "TEM":4.9266928101,
+        "TNA":49.1154651518,
+        "TEM":4.1866797178,
         "Category":"Otros Activos",
         "Tags":"[\"D\u00f3lar\"]"
     },
@@ -482,64 +482,72 @@
     {
         "Bank_Name":"FBA Renta Fija D\u00f3lar I - Clase A",
         "Commercial_Name":"FBA RENTA FIJA D\u00d3LAR I - CLASE A",
-        "TNA":1.0168837798,
-        "TEM":0.0850074074,
+        "TNA":2.0601446336,
+        "TEM":0.1722924673,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Fima Renta Fija D\u00f3lares - Clase A",
         "Commercial_Name":"FIMA RENTA FIJA D\u00d3LARES - CLASE A",
-        "TNA":-2.99857413,
-        "TEM":-0.2502623966,
+        "TNA":-3.0708427915,
+        "TEM":-0.2562864906,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Cocos Ahorro D\u00f3lares - Clase A",
         "Commercial_Name":"COCOS AHORRO D\u00d3LARES - CLASE A",
-        "TNA":6.10163927,
-        "TEM":0.5111221913,
+        "TNA":6.1628458849,
+        "TEM":0.516262126,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"IEB Renta Fija D\u00f3lar - Clase A",
         "Commercial_Name":"IEB RENTA FIJA D\u00d3LAR - CLASE A",
-        "TNA":-1.8919470565,
-        "TEM":-0.157973394,
+        "TNA":1.3586731601,
+        "TEM":0.1135953203,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Balanz Ahorro en D\u00f3lares - Clase A",
         "Commercial_Name":"BALANZ AHORRO EN D\u00d3LARES - CLASE A",
-        "TNA":-1.3007975415,
-        "TEM":-0.1086396621,
+        "TNA":-2.0631692429,
+        "TEM":-0.1722581512,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"IOL D\u00f3lar Ahorro Plus - Clase D",
         "Commercial_Name":"IOL D\u00d3LAR AHORRO PLUS - CLASE D",
-        "TNA":1.4233138667,
-        "TEM":0.1190028798,
+        "TNA":0.0360709897,
+        "TEM":0.0030141951,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Superfondo Renta Fija D\u00f3lares - Clase A",
         "Commercial_Name":"SUPERFONDO RENTA FIJA D\u00d3LARES - CLASE A",
-        "TNA":1.050706604,
-        "TEM":0.0878360606,
+        "TNA":-0.2226808029,
+        "TEM":-0.0186058996,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Ualintec Renta D\u00f3lares - Clase A",
         "Commercial_Name":"UALINTEC RENTA D\u00d3LARES - CLASE A",
-        "TNA":-1.2044486501,
-        "TEM":-0.1005967373,
+        "TNA":-1.7206756493,
+        "TEM":-0.1436825526,
+        "Category":"FCI_Dolar",
+        "Tags":"[\"FCI en D\u00f3lar\"]"
+    },
+    {
+        "Bank_Name":"IAM Retorno D\u00f3lares - Clase A",
+        "Commercial_Name":"IAM RETORNO D\u00d3LARES - CLASE A",
+        "TNA":2.1284019805,
+        "TEM":0.1780058255,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     }
