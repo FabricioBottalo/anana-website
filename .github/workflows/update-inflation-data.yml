@@ -1,0 +1,45 @@
+name: Update inflation JSONs monthly
+
+on:
+  schedule:
+    # GitHub usa UTC. Buenos Aires (UTC-3) ~ 09:05 = 12:05 UTC
+    - cron: "5 12 14 * *"   # día 14 de cada mes, 12:05 UTC
+  workflow_dispatch: {}      # te permite correrlo manualmente
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Argentina/Buenos_Aires
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests
+
+      - name: Generate JSONs
+        run: |
+          python scripts/build_jsons_from_api.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "anana-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/Base.json data/Inf_Mensual.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "data: auto-update CPI ($(date +'%Y-%m'))"
+            git push
+          else
+            echo "No changes to commit."
+          fi
