@@ -2,402 +2,266 @@
     {
         "Bank_Name":"BANCO DE LA NACION ARGENTINA",
         "Commercial_Name":"NACI\u00d3N",
-        "TNA":25.0,
-        "TEM":2.0833333333,
+        "TNA":44.0,
+        "TEM":3.6666666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO SANTANDER ARGENTINA S.A.",
         "Commercial_Name":"SANTANDER",
-        "TNA":25.0,
-        "TEM":2.0833333333,
+        "TNA":35.0,
+        "TEM":2.9166666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
-        "Bank_Name":"BANCO DE GALICIA Y BUENOS AIRES S.A.U.",
+        "Bank_Name":"BANCO DE GALICIA Y BUENOS AIRES S.A.",
         "Commercial_Name":"GALICIA",
-        "TNA":28.0,
-        "TEM":2.3333333333,
+        "TNA":43.0,
+        "TEM":3.5833333333,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO DE LA PROVINCIA DE BUENOS AIRES",
         "Commercial_Name":"BANCO PROVINCIA",
-        "TNA":26.5,
-        "TEM":2.2083333333,
+        "TNA":35.0,
+        "TEM":2.9166666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO BBVA ARGENTINA S.A.",
         "Commercial_Name":"BBVA",
-        "TNA":25.5,
-        "TEM":2.125,
+        "TNA":35.0,
+        "TEM":2.9166666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO MACRO S.A.",
         "Commercial_Name":"MACRO",
-        "TNA":28.0,
-        "TEM":2.3333333333,
-        "Category":"Banco",
-        "Tags":"[\"Plazo Fijo\"]"
-    },
-    {
-        "Bank_Name":"Banco GGAL SA",
-        "Commercial_Name":"GALICIA M\u00c1S",
-        "TNA":28.0,
-        "TEM":2.3333333333,
+        "TNA":35.5,
+        "TEM":2.9583333333,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO CREDICOOP COOPERATIVO LIMITADO",
         "Commercial_Name":"CREDICOOP",
-        "TNA":25.0,
-        "TEM":2.0833333333,
+        "TNA":42.0,
+        "TEM":3.5,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
         "Commercial_Name":"ICBC",
-        "TNA":25.0,
-        "TEM":2.0833333333,
+        "TNA":38.4,
+        "TEM":3.2,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO DE LA CIUDAD DE BUENOS AIRES",
         "Commercial_Name":"BANCO CIUDAD",
-        "TNA":25.0,
-        "TEM":2.0833333333,
+        "TNA":31.0,
+        "TEM":2.5833333333,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO BICA S.A.",
         "Commercial_Name":"BICA",
-        "TNA":28.5,
-        "TEM":2.375,
+        "TNA":42.0,
+        "TEM":3.5,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO CMF S.A.",
         "Commercial_Name":"CMF",
-        "TNA":30.0,
-        "TEM":2.5,
+        "TNA":44.0,
+        "TEM":3.6666666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO COMAFI SOCIEDAD ANONIMA",
         "Commercial_Name":"COMAFI",
-        "TNA":25.5,
-        "TEM":2.125,
+        "TNA":36.5,
+        "TEM":3.0416666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO DE CORRIENTES S.A.",
         "Commercial_Name":"BANCO DE CORRIENTES",
-        "TNA":28.0,
-        "TEM":2.3333333333,
+        "TNA":41.0,
+        "TEM":3.4166666667,
+        "Category":"Banco",
+        "Tags":"[\"Plazo Fijo\"]"
+    },
+    {
+        "Bank_Name":"BANCO DE FORMOSA S.A.",
+        "Commercial_Name":"BANCO DE FORMOSA",
+        "TNA":30.0,
+        "TEM":2.5,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO DE LA PROVINCIA DE CORDOBA S.A.",
         "Commercial_Name":"BANCOR",
-        "TNA":28.0,
-        "TEM":2.3333333333,
+        "TNA":38.0,
+        "TEM":3.1666666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO DEL CHUBUT S.A.",
         "Commercial_Name":"BANCO DEL CHUBUT",
-        "TNA":28.0,
-        "TEM":2.3333333333,
+        "TNA":38.0,
+        "TEM":3.1666666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO DEL SOL S.A.",
         "Commercial_Name":"BANCO DEL SOL",
-        "TNA":25.0,
-        "TEM":2.0833333333,
+        "TNA":40.0,
+        "TEM":3.3333333333,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO DINO S.A.",
         "Commercial_Name":"BANCO DINO",
-        "TNA":26.0,
-        "TEM":2.1666666667,
+        "TNA":35.0,
+        "TEM":2.9166666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO HIPOTECARIO S.A.",
         "Commercial_Name":"HIPOTECARIO",
-        "TNA":26.0,
-        "TEM":2.1666666667,
+        "TNA":42.5,
+        "TEM":3.5416666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO HIPOTECARIO S.A. (NO CLIENT)",
         "Commercial_Name":"HIPOTECARIO (NO CLIENTE)",
-        "TNA":30.0,
-        "TEM":2.5,
+        "TNA":45.5,
+        "TEM":3.7916666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO JULIO SOCIEDAD ANONIMA",
         "Commercial_Name":"BANCO JULIO",
-        "TNA":26.5,
-        "TEM":2.2083333333,
+        "TNA":38.0,
+        "TEM":3.1666666667,
+        "Category":"Banco",
+        "Tags":"[\"Plazo Fijo\"]"
+    },
+    {
+        "Bank_Name":"BANCO MARIVA S.A.",
+        "Commercial_Name":"MARIVA",
+        "TNA":41.5,
+        "TEM":3.4583333333,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO MASVENTAS S.A.",
         "Commercial_Name":"MASVENTAS",
-        "TNA":20.5,
-        "TEM":1.7083333333,
+        "TNA":25.0,
+        "TEM":2.0833333333,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO MERIDIAN S.A.",
         "Commercial_Name":"MERIDIAN",
-        "TNA":28.5,
-        "TEM":2.375,
+        "TNA":41.0,
+        "TEM":3.4166666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO PROVINCIA DE TIERRA DEL FUEGO",
         "Commercial_Name":"BANCO DE TIERRA DEL FUEGO",
-        "TNA":27.0,
-        "TEM":2.25,
+        "TNA":40.5,
+        "TEM":3.375,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BANCO VOII S.A.",
         "Commercial_Name":"VOII",
-        "TNA":30.0,
-        "TEM":2.5,
+        "TNA":44.0,
+        "TEM":3.6666666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BIBANK S.A.",
         "Commercial_Name":"BIBANK",
-        "TNA":27.0,
-        "TEM":2.25,
+        "TNA":39.0,
+        "TEM":3.25,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"CR\u00c9DITO REGIONAL COMPA\u00d1\u00cdA FINANCIERA S.A.U.",
         "Commercial_Name":"CR\u00c9DITO REGIONAL",
-        "TNA":29.0,
-        "TEM":2.4166666667,
+        "TNA":41.0,
+        "TEM":3.4166666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"REBA COMPA\u00d1IA FINANCIERA S.A.",
         "Commercial_Name":"REBA",
-        "TNA":29.0,
-        "TEM":2.4166666667,
+        "TNA":43.0,
+        "TEM":3.5833333333,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"UAL\u00c1 (UILO)",
         "Commercial_Name":"UAL\u00c1 (UILO)",
-        "TNA":28.0,
-        "TEM":2.3333333333,
+        "TNA":35.0,
+        "TEM":2.9166666667,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
     },
     {
         "Bank_Name":"BRUBANK (PF)",
         "Commercial_Name":"BRUBANK (PF)",
-        "TNA":27.0,
-        "TEM":2.25,
+        "TNA":30.0,
+        "TEM":2.5,
         "Category":"Banco",
         "Tags":"[\"Plazo Fijo\"]"
-    },
-    {
-        "Bank_Name":"BRUBANK (PF BRUPLUS)",
-        "Commercial_Name":"BRUBANK (PF BRUPLUS)",
-        "TNA":29.0,
-        "TEM":2.4166666667,
-        "Category":"Banco",
-        "Tags":"[\"Plazo Fijo\"]"
-    },
-    {
-        "Bank_Name":"UVA (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"UVA (ULT. 7 D\u00cdAS)",
-        "TNA":28.4039422866,
-        "TEM":2.4009261267,
-        "Category":"Otros Activos",
-        "Tags":"[\"PF UVA\"]"
-    },
-    {
-        "Bank_Name":"UVA (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"UVA (ULT. 30 D\u00cdAS)",
-        "TNA":26.5848800177,
-        "TEM":2.2455080162,
-        "Category":"Otros Activos",
-        "Tags":"[\"PF UVA\"]"
-    },
-    {
-        "Bank_Name":"UVA (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"UVA (ULT. 90 D\u00cdAS)",
-        "TNA":28.6358919379,
-        "TEM":2.4207599951,
-        "Category":"Otros Activos",
-        "Tags":"[\"PF UVA\"]"
-    },
-    {
-        "Bank_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 7 D\u00cdAS)",
-        "TNA":21.4202172931,
-        "TEM":1.8054889518,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 7 D\u00cdAS)",
-        "TNA":106.355588014,
-        "TEM":9.280004173,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 30 D\u00cdAS)",
-        "TNA":0.0,
-        "TEM":0.0,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 30 D\u00cdAS)",
-        "TNA":19.7889962326,
-        "TEM":1.6668931398,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - COMPRA Y VENTA (ULT. 90 D\u00cdAS)",
-        "TNA":32.8923177431,
-        "TEM":2.7853846738,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR BLUE - PRECIO VENTA (ULT. 90 D\u00cdAS)",
-        "TNA":39.4934013537,
-        "TEM":3.3533479951,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 7 D\u00cdAS)",
-        "TNA":-3.84498355,
-        "TEM":-0.3207944216,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 7 D\u00cdAS)",
-        "TNA":79.3456346926,
-        "TEM":6.8473030537,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 30 D\u00cdAS)",
-        "TNA":35.226496251,
-        "TEM":2.9858736763,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 30 D\u00cdAS)",
-        "TNA":54.6414648462,
-        "TEM":4.6682003026,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
-    },
-    {
-        "Bank_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"COMPRA MEP Y VENTA DE BLUE (ULT. 90 D\u00cdAS)",
-        "TNA":42.6436413688,
-        "TEM":3.6254663831,
-        "Category":"Otros Activos",
-        "Tags":"[\"D\u00f3lar\"]"
     },
     {
         "Bank_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 90 D\u00cdAS)",
         "Commercial_Name":"D\u00d3LAR MEP - PRECIO VENTA (ULT. 90 D\u00cdAS)",
-        "TNA":49.1154651518,
-        "TEM":4.1866797178,
+        "TNA":61.3003149021,
+        "TEM":5.2512944108,
         "Category":"Otros Activos",
         "Tags":"[\"D\u00f3lar\"]"
     },
     {
-        "Bank_Name":"\u00cdNCIDE MERVAL (ULT. 7 D\u00cdAS)",
-        "Commercial_Name":"\u00cdNCIDE MERVAL (ULT. 7 D\u00cdAS)",
-        "TNA":148.3789292581,
-        "TEM":13.1717666033,
-        "Category":"Otros Activos",
-        "Tags":"[\"\u00cdndice\"]"
-    },
-    {
-        "Bank_Name":"\u00cdNCIDE MERVAL (ULT. 30 D\u00cdAS)",
-        "Commercial_Name":"\u00cdNCIDE MERVAL (ULT. 30 D\u00cdAS)",
-        "TNA":32.7523996149,
-        "TEM":2.7733787218,
-        "Category":"Otros Activos",
-        "Tags":"[\"\u00cdndice\"]"
-    },
-    {
-        "Bank_Name":"\u00cdNCIDE MERVAL (ULT. 90 D\u00cdAS)",
-        "Commercial_Name":"\u00cdNCIDE MERVAL (ULT. 90 D\u00cdAS)",
-        "TNA":7.7893936901,
-        "TEM":0.6529475666,
-        "Category":"Otros Activos",
-        "Tags":"[\"\u00cdndice\"]"
-    },
-    {
         "Bank_Name":null,
         "Commercial_Name":"UAL\u00c1",
-        "TNA":32.0,
-        "TEM":2.71,
+        "TNA":27.0,
+        "TEM":2.28,
         "Category":"Billetera",
-        "Tags":"[\"Cuenta Remunerada\",\"Hasta $750.000\"]"
+        "Tags":"[\"Cuenta Remunerada\",\"Hasta $1.500.000\"]"
     },
     {
         "Bank_Name":null,
@@ -405,12 +269,12 @@
         "TNA":29.0,
         "TEM":2.45,
         "Category":"Billetera",
-        "Tags":"[\"Cuenta Remunerada\",\"Hasta $600.000\"]"
+        "Tags":"[\"Cuenta Remunerada\",\"Hasta $800.000\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"PERSONAL PAY",
-        "TNA":26.05,
+        "TNA":30.8,
         "TEM":2.2,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
@@ -418,7 +282,7 @@
     {
         "Bank_Name":null,
         "Commercial_Name":"MERCADO PAGO",
-        "TNA":26.14,
+        "TNA":29.3,
         "TEM":2.21,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
@@ -426,7 +290,7 @@
     {
         "Bank_Name":null,
         "Commercial_Name":"PREX",
-        "TNA":26.31,
+        "TNA":38.33,
         "TEM":2.22,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
@@ -434,7 +298,7 @@
     {
         "Bank_Name":null,
         "Commercial_Name":"CLARO PAY",
-        "TNA":24.96,
+        "TNA":26.7,
         "TEM":2.11,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
@@ -442,7 +306,7 @@
     {
         "Bank_Name":null,
         "Commercial_Name":"BRUBANK",
-        "TNA":28.98,
+        "TNA":27.0,
         "TEM":2.45,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
@@ -450,7 +314,7 @@
     {
         "Bank_Name":null,
         "Commercial_Name":"COCOS CAPITAL",
-        "TNA":30.37,
+        "TNA":37.0,
         "TEM":2.57,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
@@ -458,8 +322,8 @@
     {
         "Bank_Name":null,
         "Commercial_Name":"BICA (CUENTA POSITIVA)",
-        "TNA":27.0,
-        "TEM":2.28,
+        "TNA":25.0,
+        "TEM":2.11,
         "Category":"Billetera",
         "Tags":"[\"FCI\", \"Hasta $500.000\"]"
     },
@@ -482,72 +346,72 @@
     {
         "Bank_Name":"FBA Renta Fija D\u00f3lar I - Clase A",
         "Commercial_Name":"FBA RENTA FIJA D\u00d3LAR I - CLASE A",
-        "TNA":2.0601446336,
-        "TEM":0.1722924673,
+        "TNA":2.5662715282,
+        "TEM":0.214664404,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Fima Renta Fija D\u00f3lares - Clase A",
         "Commercial_Name":"FIMA RENTA FIJA D\u00d3LARES - CLASE A",
-        "TNA":-3.0708427915,
-        "TEM":-0.2562864906,
+        "TNA":12.3921986158,
+        "TEM":1.0407148977,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Cocos Ahorro D\u00f3lares - Clase A",
         "Commercial_Name":"COCOS AHORRO D\u00d3LARES - CLASE A",
-        "TNA":6.1628458849,
-        "TEM":0.516262126,
+        "TNA":3.3948365117,
+        "TEM":0.2840676376,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"IEB Renta Fija D\u00f3lar - Clase A",
         "Commercial_Name":"IEB RENTA FIJA D\u00d3LAR - CLASE A",
-        "TNA":1.3586731601,
-        "TEM":0.1135953203,
+        "TNA":5.2149810686,
+        "TEM":0.4366919955,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Balanz Ahorro en D\u00f3lares - Clase A",
         "Commercial_Name":"BALANZ AHORRO EN D\u00d3LARES - CLASE A",
-        "TNA":-2.0631692429,
-        "TEM":-0.1722581512,
+        "TNA":9.4487940238,
+        "TEM":0.792578991,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"IOL D\u00f3lar Ahorro Plus - Clase D",
         "Commercial_Name":"IOL D\u00d3LAR AHORRO PLUS - CLASE D",
-        "TNA":0.0360709897,
-        "TEM":0.0030141951,
+        "TNA":5.9939042121,
+        "TEM":0.5020755651,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Superfondo Renta Fija D\u00f3lares - Clase A",
         "Commercial_Name":"SUPERFONDO RENTA FIJA D\u00d3LARES - CLASE A",
-        "TNA":-0.2226808029,
-        "TEM":-0.0186058996,
+        "TNA":0.7265723331,
+        "TEM":0.0607314083,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"Ualintec Renta D\u00f3lares - Clase A",
         "Commercial_Name":"UALINTEC RENTA D\u00d3LARES - CLASE A",
-        "TNA":-1.7206756493,
-        "TEM":-0.1436825526,
+        "TNA":9.6775503872,
+        "TEM":0.8118425462,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     },
     {
         "Bank_Name":"IAM Retorno D\u00f3lares - Clase A",
         "Commercial_Name":"IAM RETORNO D\u00d3LARES - CLASE A",
-        "TNA":2.1284019805,
-        "TEM":0.1780058255,
+        "TNA":2.5478285548,
+        "TEM":0.2131200907,
         "Category":"FCI_Dolar",
         "Tags":"[\"FCI en D\u00f3lar\"]"
     }
