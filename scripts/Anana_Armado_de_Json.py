@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 15,
    "id": "63db928f-5c99-4362-afc5-458d7882eac2",
    "metadata": {},
    "outputs": [
@@ -170,7 +170,7 @@
     "\n",
     "\n",
     "\n",
-    "def api_csv(ids, start_date=2017):\n",
+    "def api_csv(ids, start_date=2020):\n",
     "    \"\"\"Descarga CSV de varias series en un solo llamado (en chunks). Devuelve DF con columna date y columnas por id.\"\"\"\n",
     "    ids = list(ids)\n",
     "    chunks = [ids[i:i+15] for i in range(0, len(ids), 15)]  # 15 por URL para evitar límites\n",
@@ -233,7 +233,7 @@
     "\n",
     "    # 1) Descarga todo\n",
     "    ids = list(SERIES.keys())\n",
-    "    df = api_csv(ids, start_date=2017)\n",
+    "    df = api_csv(ids, start_date=2020)\n",
     "    # renombro columnas por alias legible\n",
     "    rename_map = {}\n",
     "    for sid, alias in SERIES.items():\n",
@@ -302,7 +302,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "51f8f0dc-bb9e-4c77-acff-9f044f0deac7",
+   "id": "36ec1336-e365-4761-b0fe-8e562bfb9ffc",
    "metadata": {},
    "outputs": [],
    "source": []
