@@ -186,11 +186,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+// --- Helpers (put near the top of calculator.js) ---
+const MONTHS_ES = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 
-// CHART
-// Fetch JSON data
+function labelToKey(label) {
+  // "Enero '25" -> sortable key 202501
+  const m = label.match(/^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'(\d{2})$/);
+  if (!m) return null;
+  const month = MONTHS_ES.findIndex(x => x.toLowerCase() === m[1].toLowerCase()) + 1;
+  const year = 2000 + parseInt(m[2], 10);
+  return year * 100 + month; // e.g., 202501
+}
 
-let chartInstance; // Global variable to store the chart instance
+function last13FromRow(rowObj) {
+  // pick only keys like "Mes 'YY" that have numeric values
+  const entries = Object.entries(rowObj)
+    .filter(([k, v]) => /^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'\d{2}$/.test(k) && typeof v === "number")
+    .map(([lab, val]) => ({ lab, val, sortKey: labelToKey(lab) }))
+    .filter(x => x.sortKey);
+
+  // sort chronologically and take last 13
+  entries.sort((a, b) => a.sortKey - b.sortKey);
+  const last = entries.slice(-13);
+
+  return {
+    labels: last.map(e => e.lab),
+    values: last.map(e => +(e.val * 100).toFixed(2)), // percent
+  };
+}
+
+// --- CHART ---
+let chartInstance; // keep your global
 
 async function renderChart(region) {
   try {
@@ -206,32 +232,27 @@ async function renderChart(region) {
       return;
     }
 
-    const mesesselected = ["Enero '24", "Febrero '24", "Marzo '24", "Abril '24", "Mayo '24", "Junio '24",
-      "Julio '24", "Agosto '24", "Septiembre '24", "Octubre '24", "Noviembre '24", "Diciembre '24", "Enero '25"]
+    // NEW: auto-pick the last 13 months from available keys
+    const { labels, values } = last13FromRow(regionData);
 
-    const months = Object.keys(regionData).filter((key) => mesesselected.includes(key));
-    const inflationValues = months.map((month) => regionData[month] * 100);
-
-    // Display the chart container
+    // Show containers
     document.getElementById("anana-borde-amarillo").style.display = "block";
     document.getElementById("chart-container").style.display = "block";
 
     const ctx = document.getElementById("inflation-chart").getContext("2d");
 
     // Destroy existing chart instance if it exists
-    if (chartInstance) {
-      chartInstance.destroy();
-    }
+    if (chartInstance) chartInstance.destroy();
 
     // Create a new chart
     chartInstance = new Chart(ctx, {
       type: "line",
       data: {
-        labels: months,
+        labels,
         datasets: [
           {
             label: "Inflación Mensual",
-            data: inflationValues,
+            data: values,
             borderColor: "#479b48",
             borderWidth: 3,
             fill: false,
@@ -244,19 +265,22 @@ async function renderChart(region) {
         maintainAspectRatio: false,
         scales: {
           x: {
-            title: {
-              display: true,
-              text: "Meses",
-            },
+            title: { display: true, text: "Meses" },
           },
           y: {
-            title: {
-              display: true,
-              text: "Inflación (%)",
-            },
+            title: { display: true, text: "Inflación (%)" },
             beginAtZero: true,
             ticks: {
+              // keep your step if you like; or format with % sign:
               stepSize: 2,
+              callback: (v) => v.toString().replace(".", ","),
+            },
+          },
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: (ctx) => `${ctx.parsed.y}%`,
             },
           },
         },
