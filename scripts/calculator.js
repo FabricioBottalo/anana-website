@@ -245,9 +245,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // --- YTD: first month of same year as last data -> last month ---
       const yearOfLast = parseInt(lastMonthKey.slice(0, 4), 10);
-      const colsSameYear = cols.filter(k => k.startsWith(String(yearOfLast) + "_"));
-      const firstMonthOfYearKey = colsSameYear[0];
-      const ytdInflation = calculateInflation(baseData, region, lastMonthKey, firstMonthOfYearKey);
+      const prevDecKey = `${yearOfLast - 1}_12`;
+      //const colsSameYear = cols.filter(k => k.startsWith(String(yearOfLast) + "_"));
+      //const firstMonthOfYearKey = colsSameYear[0];
+      const ytdInflation = calculateInflation(baseData, region, lastMonthKey, prevDecKey);
 
       // Update DOM (only if spans exist)
       const el = (id) => document.getElementById(id);
