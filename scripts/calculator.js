@@ -188,6 +188,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // --- Helpers (put near the top of calculator.js) ---
 const MONTHS_ES = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+const monthIndex = (name) => MONTHS_ES.findIndex(m => m.toLowerCase() === name.toLowerCase()); // 0..11
+
+function parseLabel(lab) {
+  // "Enero '25" -> { year: 2025, monthIdx: 0 }  (0-based month)
+  const m = lab.match(/^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'(\d{2})$/);
+  if (!m) return null;
+  const y = 2000 + parseInt(m[2], 10);
+  const mi = monthIndex(m[1]);
+  if (mi < 0) return null;
+  return { year: y, monthIdx: mi };
+
+function pickMonthlyEntries(rowObj) {
+  // returns [{lab, val, year, monthIdx, sortKey}]
+  return Object.entries(rowObj)
+    .filter(([k, v]) => /^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'\d{2}$/.test(k) && typeof v === "number")
+    .map(([lab, val]) => {
+      const parsed = parseLabel(lab);
+      if (!parsed) return null;
+      const sortKey = parsed.year * 100 + (parsed.monthIdx + 1);
+      return { lab, val, ...parsed, sortKey };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.sortKey - b.sortKey);
+}
+
+const fmtPct = (x) => (x*100).toFixed(2).replace(".", ",");      // 0.0162 -> "1,62"
+const fmtPctNumber = (x) => +(x*100).toFixed(2);                  // 0.0162 -> 1.62 (number)
+const productMinus1 = (arr) => arr.reduce((acc, r) => acc * (1 + r.val), 1) - 1;
 
 function labelToKey(label) {
   // "Enero '25" -> sortable key 202501
