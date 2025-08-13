@@ -73,6 +73,59 @@ function getLastColumn(data) {
 }
 
 
+// ===== Helpers (months to chart and descriptions) =====
+const MONTHS_ES = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+const monthIndex = (name) => MONTHS_ES.findIndex(m => m.toLowerCase() === name.toLowerCase()); // 0..11
+
+function parseLabel(lab) {
+  // "Enero '25" -> { year: 2025, monthIdx: 0 }
+  const m = lab.match(/^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'(\d{2})$/);
+  if (!m) return null;
+  const y = 2000 + parseInt(m[2], 10);
+  const mi = monthIndex(m[1]);
+  if (mi < 0) return null;
+  return { year: y, monthIdx: mi };
+}
+
+function pickMonthlyEntries(rowObj) {
+  // returns [{lab, val, year, monthIdx, sortKey}]
+  return Object.entries(rowObj)
+    .filter(([k, v]) => /^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'\d{2}$/.test(k) && typeof v === "number")
+    .map(([lab, val]) => {
+      const parsed = parseLabel(lab);
+      if (!parsed) return null;
+      const sortKey = parsed.year * 100 + (parsed.monthIdx + 1);
+      return { lab, val, ...parsed, sortKey };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.sortKey - b.sortKey);
+}
+
+function labelToKey(label) {
+  const m = label.match(/^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'(\d{2})$/);
+  if (!m) return null;
+  const month = MONTHS_ES.findIndex(x => x.toLowerCase() === m[1].toLowerCase()) + 1;
+  const year = 2000 + parseInt(m[2], 10);
+  return year * 100 + month; // 202501
+}
+
+function last13FromRow(rowObj) {
+  const entries = Object.entries(rowObj)
+    .filter(([k, v]) => /^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'\d{2}$/.test(k) && typeof v === "number")
+    .map(([lab, val]) => ({ lab, val, sortKey: labelToKey(lab) }))
+    .filter(x => x.sortKey);
+
+  entries.sort((a, b) => a.sortKey - b.sortKey);
+  const last = entries.slice(-13);
+  return {
+    labels: last.map(e => e.lab),
+    values: last.map(e => +(e.val * 100).toFixed(2)),
+  };
+}
+
+
+
+
 
 // Event listener for the Calculate button
 document.addEventListener("DOMContentLoaded", () => {
@@ -126,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
-
+ // --- Calculate button ---
   document.getElementById("calculate").addEventListener("click", async (event) => {
     event.preventDefault();
 
@@ -135,113 +188,61 @@ document.addEventListener("DOMContentLoaded", () => {
       const city = document.getElementById("city")?.value || "-";
 
       // Load data
-      const { baseData, provCities } = await loadData();
+      const baseData = await fetchJSON("data/Base.json");
+      const infMensual = await fetchJSON("data/Inf_Mensual.json");
+      const provCities = await fetchJSON("data/Prov_Ciudades.json");
 
       // Determine the region
       const region = await handleRegion(province, city, provCities);
 
-      // Get sorted columns for calculations
-      const sortedColumns = getLastColumn(baseData);
-      const [firstMonthOfYear, lastMonth, previousMonth, lastYearSameMonth] = [
-        sortedColumns[sortedColumns.length - 2], //Este va cambiando
-        sortedColumns[sortedColumns.length - 1],
-        sortedColumns[sortedColumns.length - 2],
-        sortedColumns[sortedColumns.length - 13]
-      ];
+      // ---- Compute “last month” label & value from Inf_Mensual (Nivel_general) ----
+      const rowNG = infMensual.find(r => r.Region === region && r.Categoria === "Nivel_general");
+      if (!rowNG) throw new Error("No Inf_Mensual Nivel_general for region " + region);
 
-      // Calculate inflation
-      const monthlyInflation = calculateInflation(
-        baseData,
-        region,
-        lastMonth,
-        previousMonth
-      );
-      const yearlyInflation = calculateInflation(
-        baseData,
-        region,
-        lastMonth,
-        lastYearSameMonth
-      );
-      const ytdInflation = calculateInflation(
-        baseData,
-        region,
-        lastMonth,
-        firstMonthOfYear
-      );
+      const entries = pickMonthlyEntries(rowNG);
+      if (!entries.length) throw new Error("No monthly entries in Inf_Mensual for region " + region);
 
-      // Display results
-      document.getElementById("monthly-inflation").textContent = monthlyInflation;
+      const last = entries[entries.length - 1]; // {lab, val, year, monthIdx}
+      const lastMonthLabel = last.lab;               // "Enero '25"
+      const lastMonthInflPct = (last.val * 100).toFixed(2); // turn 0.0162 -> "1.62"
+
+      // ---- Interannual (últimos 12 meses) using Base.json indices (last vs same month prev year) ----
+      const sortedColumns = getLastColumn(baseData); // ["2017_01", ... "2025_07"]
+      const lastMonthKey = sortedColumns[sortedColumns.length - 1];       // e.g. "2025_07"
+      const prevMonthKey = sortedColumns[sortedColumns.length - 2];       // e.g. "2025_06"
+      const sameMonthPrevYearKey = sortedColumns[sortedColumns.length - 13]; // e.g. "2024_07"
+
+      const yearlyInflation = calculateInflation(baseData, region, lastMonthKey, sameMonthPrevYearKey); // string like "39.42"
+
+      // ---- YTD: from first month of *the same year as last data* to lastMonth ----
+      const yearOfLast = parseInt(lastMonthKey.slice(0, 4), 10);
+      const colsSameYear = sortedColumns.filter(k => k.startsWith(String(yearOfLast) + "_"));
+      const firstMonthOfYearKey = colsSameYear[0]; // first available in that year (usually YYYY_01)
+      const ytdInflation = calculateInflation(baseData, region, lastMonthKey, firstMonthOfYearKey);
+
+      // ---- Update DOM labels and values ----
+      document.getElementById("last-month-label").textContent = lastMonthLabel;
+      document.getElementById("monthly-inflation").textContent = lastMonthInflPct;
       document.getElementById("yearly-inflation").textContent = yearlyInflation;
+      document.getElementById("current-year-label").textContent = yearOfLast;
       document.getElementById("ytd-inflation").textContent = ytdInflation;
 
+      // Show the results area
       document.getElementById("results").style.display = "block";
+
+      // Render chart and reveal other sections
+      await renderChart(region);
+      document.getElementById("anana-borde-verde").style.display = "block";
+      document.getElementById("salary-comparison-container").style.display = "block";
     } catch (error) {
       console.error("Error calculating inflation:", error);
       alert("Hubo un error al calcular la inflación. Por favor, verifica tus datos.");
     }
   });
 
-});
 
 
 
-
-// --- Helpers (put near the top of calculator.js) ---
-const MONTHS_ES = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
-const monthIndex = (name) => MONTHS_ES.findIndex(m => m.toLowerCase() === name.toLowerCase()); // 0..11
-
-function parseLabel(lab) {
-  // "Enero '25" -> { year: 2025, monthIdx: 0 }  (0-based month)
-  const m = lab.match(/^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'(\d{2})$/);
-  if (!m) return null;
-  const y = 2000 + parseInt(m[2], 10);
-  const mi = monthIndex(m[1]);
-  if (mi < 0) return null;
-  return { year: y, monthIdx: mi };
-
-function pickMonthlyEntries(rowObj) {
-  // returns [{lab, val, year, monthIdx, sortKey}]
-  return Object.entries(rowObj)
-    .filter(([k, v]) => /^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'\d{2}$/.test(k) && typeof v === "number")
-    .map(([lab, val]) => {
-      const parsed = parseLabel(lab);
-      if (!parsed) return null;
-      const sortKey = parsed.year * 100 + (parsed.monthIdx + 1);
-      return { lab, val, ...parsed, sortKey };
-    })
-    .filter(Boolean)
-    .sort((a, b) => a.sortKey - b.sortKey);
-}
-
-const fmtPct = (x) => (x*100).toFixed(2).replace(".", ",");      // 0.0162 -> "1,62"
-const fmtPctNumber = (x) => +(x*100).toFixed(2);                  // 0.0162 -> 1.62 (number)
-const productMinus1 = (arr) => arr.reduce((acc, r) => acc * (1 + r.val), 1) - 1;
-
-function labelToKey(label) {
-  // "Enero '25" -> sortable key 202501
-  const m = label.match(/^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'(\d{2})$/);
-  if (!m) return null;
-  const month = MONTHS_ES.findIndex(x => x.toLowerCase() === m[1].toLowerCase()) + 1;
-  const year = 2000 + parseInt(m[2], 10);
-  return year * 100 + month; // e.g., 202501
-}
-
-function last13FromRow(rowObj) {
-  // pick only keys like "Mes 'YY" that have numeric values
-  const entries = Object.entries(rowObj)
-    .filter(([k, v]) => /^([A-Za-zÁÉÍÓÚáéíóúñÑ]+)\s+'\d{2}$/.test(k) && typeof v === "number")
-    .map(([lab, val]) => ({ lab, val, sortKey: labelToKey(lab) }))
-    .filter(x => x.sortKey);
-
-  // sort chronologically and take last 13
-  entries.sort((a, b) => a.sortKey - b.sortKey);
-  const last = entries.slice(-13);
-
-  return {
-    labels: last.map(e => e.lab),
-    values: last.map(e => +(e.val * 100).toFixed(2)), // percent
-  };
-}
 
 // --- CHART ---
 let chartInstance; // keep your global
@@ -322,123 +323,42 @@ async function renderChart(region) {
 
 
 
-
-// Add event listener for Calculate button
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("calculate").addEventListener("click", async (event) => {
-    event.preventDefault();
-
-    try {
-      const province = document.getElementById("state").value;
-      const city = document.getElementById("city")?.value || "-";
-
-      // Load province-to-region mapping data
-      const provCities = await fetchJSON("data/Prov_Ciudades.json");
-
-      // Determine the region
-      const region = await handleRegion(province, city, provCities);
-
-      // Perform calculations (existing logic for inflation results)
-      // ...
-
-      // Render the inflation chart
-      await renderChart(region);
-    } catch (error) {
-      console.error("Error calculating inflation:", error);
-      alert("Hubo un error al calcular la inflación. Por favor, verifica tus datos.");
-    }
-  });
-});
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("calculate").addEventListener("click", async (event) => {
-    event.preventDefault();
-
-    try {
-      const province = document.getElementById("state").value;
-      const city = document.getElementById("city")?.value || "-";
-
-      // Load province-to-region mapping data
-      const provCities = await fetchJSON("data/Prov_Ciudades.json");
-
-      // Determine the region
-      const region = await handleRegion(province, city, provCities);
-
-      // Perform calculations (existing logic for inflation results)
-      // ...
-
-      // Render the inflation chart
-      await renderChart(region);
-
-      // Show the salary comparison section
-      document.getElementById("anana-borde-verde").style.display = "block";
-      document.getElementById("salary-comparison-container").style.display = "block";
-    } catch (error) {
-      console.error("Error calculating inflation:", error);
-      alert("Hubo un error al calcular la inflación. Por favor, verifica tus datos.");
-    }
-  });
-
   // Salary comparison logic
+
   document.getElementById("compare-salary").addEventListener("click", () => {
-    // Get user inputs
     const previousSalary = parseFloat(document.getElementById("previous-salary").value);
     const currentSalary = parseFloat(document.getElementById("current-salary").value);
-
     if (isNaN(previousSalary) || isNaN(currentSalary) || previousSalary <= 0 || currentSalary <= 0) {
       alert("Por favor, ingresa valores válidos para ambos salarios.");
       return;
     }
 
-    // Calculate salary increase
     const salaryIncrease = (currentSalary / previousSalary - 1).toFixed(2);
-
-    // Get yearly inflation (assume it's already calculated elsewhere)
     const yearlyInflation = parseFloat(document.getElementById("yearly-inflation").textContent) / 100;
-
-    // Calculate purchasing power
     const purchasingPower = ((1 + parseFloat(salaryIncrease)) / (1 + yearlyInflation) - 1).toFixed(2);
 
-    // Display results
     const resultContainer = document.getElementById("salary-results");
     const resultText = document.getElementById("comparison-result");
     const resultImage = document.getElementById("result-image");
     const productPower = document.getElementById("product-power");
 
     if (salaryIncrease > yearlyInflation) {
-      resultImage.src = "assets/Gano-PPA.png"; // Full basket image
-
-      resultText.innerHTML = `
-        <strong>Felicitaciones!</strong> Lograste que tus ingresos aumenten más que la inflación.<br>
-        El último año, tu sueldo se incrementó en un ${(+salaryIncrease * 100).toFixed(2)}%, mientras que la inflación subió un ${(yearlyInflation * 100).toFixed(2)}%.
-      `;
-
+      resultImage.src = "assets/Gano-PPA.png";
+      resultText.innerHTML = `<strong>Felicitaciones!</strong> Lograste que tus ingresos aumenten más que la inflación.<br>
+        El último año, tu sueldo se incrementó en ${(+salaryIncrease * 100).toFixed(2)}%, mientras que la inflación subió ${(yearlyInflation * 100).toFixed(2)}%.`;
       productPower.textContent = `Ahora podés comprar un ${(purchasingPower * 100).toFixed(2)}% más de productos y servicios que el año pasado.`;
     } else if (salaryIncrease === yearlyInflation) {
-      resultImage.src = "assets/Empato-PPA.png"; // Same basket image
-
-      resultText.innerHTML = `
-        Lograste que tus ingresos aumenten lo mismo que la inflación.<br>
-        El último año, tu sueldo se incrementó en un ${(+salaryIncrease * 100).toFixed(2)}%, mientras que la inflación subió un ${(yearlyInflation * 100).toFixed(2)}%.
-      `;
-      
+      resultImage.src = "assets/Empato-PPA.png";
+      resultText.innerHTML = `Lograste que tus ingresos aumenten lo mismo que la inflación.<br>
+        El último año, tu sueldo se incrementó en ${(+salaryIncrease * 100).toFixed(2)}%, mientras que la inflación subió ${(yearlyInflation * 100).toFixed(2)}%.`;
       productPower.textContent = "Ahora podés comprar la misma cantidad de productos y servicios que el año pasado.";
     } else {
-      resultImage.src = "assets/Perdio-PPA.png"; // Empty basket image
-
-      resultText.innerHTML = `
-        <strong>Desgraciadamente</strong>, la inflación superó tus ingresos el 2024.<br>
-        El último año, tu sueldo se incrementó en un ${(+salaryIncrease * 100).toFixed(2)}%, mientras que la inflación subió un ${(yearlyInflation * 100).toFixed(2)}%.
-      `;
-      
+      resultImage.src = "assets/Perdio-PPA.png";
+      resultText.innerHTML = `<strong>Desgraciadamente</strong>, la inflación superó tus ingresos el 2024.<br>
+        El último año, tu sueldo se incrementó en ${(+salaryIncrease * 100).toFixed(2)}%, mientras que la inflación subió ${(yearlyInflation * 100).toFixed(2)}%.`;
       productPower.textContent = `Ahora podés comprar un ${(Math.abs(purchasingPower) * 100).toFixed(2)}% menos de productos y servicios que el año pasado.`;
     }
 
-    // Show the results
     resultContainer.style.display = "block";
   });
 });
