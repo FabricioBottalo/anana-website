@@ -2,7 +2,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Cat_Level": 1,
         "2017_01": 101.4532,
         "2017_02": 103.2726,
@@ -108,7 +108,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Cat_Level": 1,
         "2017_01": 101.3069,
         "2017_02": 103.1646,
@@ -214,7 +214,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Cat_Level": 1,
         "2017_01": 101.3024,
         "2017_02": 103.1605,
@@ -320,7 +320,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Cat_Level": 1,
         "2017_01": 101.7326,
         "2017_02": 103.3712,
@@ -426,7 +426,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Cat_Level": 1,
         "2017_01": 101.0322,
         "2017_02": 103.8789,
@@ -532,7 +532,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Cat_Level": 1,
         "2017_01": 101.3185,
         "2017_02": 103.0905,
@@ -638,7 +638,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Cat_Level": 1,
         "2017_01": 100.9464,
         "2017_02": 102.2499,
@@ -744,7 +744,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Cat_Level": 1,
         "2017_01": 101.3446,
         "2017_02": 103.6784,
@@ -850,7 +850,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Cat_Level": 1,
         "2017_01": 100.5008,
         "2017_02": 105.4806,
@@ -956,7 +956,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Cat_Level": 1,
         "2017_01": 100.925,
         "2017_02": 105.2395,
@@ -1062,7 +1062,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Cat_Level": 1,
         "2017_01": 100.7754,
         "2017_02": 104.2784,
@@ -1168,7 +1168,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Cat_Level": 1,
         "2017_01": 101.3444,
         "2017_02": 105.4591,
@@ -1274,7 +1274,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Cat_Level": 1,
         "2017_01": 101.3123,
         "2017_02": 105.2329,
@@ -1380,7 +1380,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Cat_Level": 1,
         "2017_01": 101.1901,
         "2017_02": 105.356,
@@ -1486,7 +1486,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Cat_Level": 1,
         "2017_01": 102.0274,
         "2017_02": 103.145,
@@ -1592,7 +1592,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Cat_Level": 1,
         "2017_01": 102.117,
         "2017_02": 104.1416,
@@ -1698,7 +1698,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Cat_Level": 1,
         "2017_01": 101.9345,
         "2017_02": 103.7951,
@@ -1804,7 +1804,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Cat_Level": 1,
         "2017_01": 102.0562,
         "2017_02": 103.2166,
@@ -1910,7 +1910,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Cat_Level": 1,
         "2017_01": 102.0385,
         "2017_02": 103.5259,
@@ -2016,7 +2016,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Cat_Level": 1,
         "2017_01": 101.5745,
         "2017_02": 103.518,
@@ -2122,7 +2122,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Cat_Level": 1,
         "2017_01": 102.4839,
         "2017_02": 104.2815,
@@ -2228,7 +2228,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Cat_Level": 1,
         "2017_01": 102.7973,
         "2017_02": 105.0927,
@@ -2334,7 +2334,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Cat_Level": 1,
         "2017_01": 103.8174,
         "2017_02": 108.0484,
@@ -2440,7 +2440,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Cat_Level": 1,
         "2017_01": 103.0516,
         "2017_02": 107.2514,
@@ -2546,7 +2546,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Cat_Level": 1,
         "2017_01": 102.7252,
         "2017_02": 107.0976,
@@ -2652,7 +2652,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Cat_Level": 1,
         "2017_01": 104.1098,
         "2017_02": 107.0784,
@@ -2758,7 +2758,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Cat_Level": 1,
         "2017_01": 102.0782,
         "2017_02": 106.7706,
@@ -2864,7 +2864,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Cat_Level": 1,
         "2017_01": 101.6649,
         "2017_02": 105.7368,
@@ -2970,7 +2970,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Cat_Level": 1,
         "2017_01": 100.0,
         "2017_02": 102.6468,
@@ -3076,7 +3076,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Cat_Level": 1,
         "2017_01": 100.4869,
         "2017_02": 104.936,
@@ -3182,7 +3182,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Cat_Level": 1,
         "2017_01": 100.7952,
         "2017_02": 103.9808,
@@ -3288,7 +3288,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Cat_Level": 1,
         "2017_01": 101.6601,
         "2017_02": 109.7825,
@@ -3394,7 +3394,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Cat_Level": 1,
         "2017_01": 100.5123,
         "2017_02": 102.8592,
@@ -3500,7 +3500,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Cat_Level": 1,
         "2017_01": 100.3682,
         "2017_02": 102.0178,
@@ -3606,7 +3606,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Cat_Level": 1,
         "2017_01": 106.9917,
         "2017_02": 106.687,
@@ -3712,7 +3712,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Cat_Level": 1,
         "2017_01": 101.2098,
         "2017_02": 101.4084,
@@ -3818,7 +3818,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Cat_Level": 1,
         "2017_01": 100.8651,
         "2017_02": 101.2178,
@@ -3924,7 +3924,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Cat_Level": 1,
         "2017_01": 100.8773,
         "2017_02": 101.3278,
@@ -4030,7 +4030,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Cat_Level": 1,
         "2017_01": 101.4132,
         "2017_02": 101.7747,
@@ -4136,7 +4136,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Cat_Level": 1,
         "2017_01": 100.4121,
         "2017_02": 100.6545,
@@ -4242,7 +4242,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Cat_Level": 1,
         "2017_01": 100.8374,
         "2017_02": 101.5404,
@@ -4348,7 +4348,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Cat_Level": 1,
         "2017_01": 101.0684,
         "2017_02": 101.2819,
@@ -4454,7 +4454,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Cat_Level": 1,
         "2017_01": 101.7074,
         "2017_02": 103.2652,
@@ -4560,7 +4560,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Cat_Level": 1,
         "2017_01": 101.313,
         "2017_02": 103.8085,
@@ -4666,7 +4666,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Cat_Level": 1,
         "2017_01": 101.5859,
         "2017_02": 103.6859,
@@ -4772,7 +4772,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Cat_Level": 1,
         "2017_01": 101.6727,
         "2017_02": 103.4617,
@@ -4878,7 +4878,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Cat_Level": 1,
         "2017_01": 101.6014,
         "2017_02": 103.7115,
@@ -4984,7 +4984,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Cat_Level": 1,
         "2017_01": 101.7874,
         "2017_02": 103.5312,
@@ -5090,7 +5090,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Cat_Level": 1,
         "2017_01": 102.5593,
         "2017_02": 104.2827,
@@ -5196,7 +5196,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Cat_Level": 1,
         "2017_01": 99.8901,
         "2017_02": 97.6569,
@@ -5302,7 +5302,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Cat_Level": 1,
         "2017_01": 97.8719,
         "2017_02": 97.4253,
@@ -5408,7 +5408,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Cat_Level": 1,
         "2017_01": 99.0066,
         "2017_02": 98.8523,
@@ -5514,7 +5514,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Cat_Level": 1,
         "2017_01": 100.2847,
         "2017_02": 100.4291,
@@ -5620,7 +5620,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Cat_Level": 1,
         "2017_01": 100.483,
         "2017_02": 100.4131,
@@ -5726,7 +5726,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Cat_Level": 1,
         "2017_01": 99.6481,
         "2017_02": 99.9319,
@@ -5832,7 +5832,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Cat_Level": 1,
         "2017_01": 100.9137,
         "2017_02": 102.3756,
@@ -5938,7 +5938,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Cat_Level": 1,
         "2017_01": 101.494,
         "2017_02": 103.0695,
@@ -6044,7 +6044,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Cat_Level": 1,
         "2017_01": 103.243,
         "2017_02": 103.3096,
@@ -6150,7 +6150,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Cat_Level": 1,
         "2017_01": 103.1906,
         "2017_02": 103.7961,
@@ -6256,7 +6256,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Cat_Level": 1,
         "2017_01": 103.633,
         "2017_02": 105.6846,
@@ -6362,7 +6362,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Cat_Level": 1,
         "2017_01": 103.4112,
         "2017_02": 103.4842,
@@ -6468,7 +6468,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Cat_Level": 1,
         "2017_01": 103.5814,
         "2017_02": 104.5173,
@@ -6574,7 +6574,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Cat_Level": 1,
         "2017_01": 100.9612,
         "2017_02": 102.5319,
@@ -6680,7 +6680,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Cat_Level": 1,
         "2017_01": 101.8587,
         "2017_02": 103.7947,
@@ -6786,7 +6786,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Cat_Level": 1,
         "2017_01": 103.2868,
         "2017_02": 105.1373,
@@ -6892,7 +6892,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Cat_Level": 1,
         "2017_01": 103.1002,
         "2017_02": 104.8886,
@@ -6998,7 +6998,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Cat_Level": 1,
         "2017_01": 104.2939,
         "2017_02": 108.3164,
@@ -7104,7 +7104,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Cat_Level": 1,
         "2017_01": 102.48,
         "2017_02": 103.3877,
@@ -7210,7 +7210,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Cat_Level": 1,
         "2017_01": 103.1259,
         "2017_02": 104.4851,
@@ -7316,7 +7316,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Cat_Level": 1,
         "2017_01": 102.2654,
         "2017_02": 105.6675,
@@ -7422,7 +7422,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Cat_Level": 1,
         "2017_01": 103.1395,
         "2017_02": 105.4921,
@@ -7528,7 +7528,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Cat_Level": 1,
         "2017_01": 101.3559,
         "2017_02": 104.6961,
@@ -7634,7 +7634,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Cat_Level": 1,
         "2017_01": 102.3501,
         "2017_02": 105.0852,
@@ -7740,7 +7740,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Cat_Level": 1,
         "2017_01": 102.5966,
         "2017_02": 105.2343,
@@ -7846,7 +7846,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Cat_Level": 1,
         "2017_01": 102.7132,
         "2017_02": 104.0851,
@@ -7952,7 +7952,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Cat_Level": 1,
         "2017_01": 103.1538,
         "2017_02": 105.4773,
@@ -8058,7 +8058,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Cat_Level": 1,
         "2017_01": 104.7253,
         "2017_02": 107.0073,
@@ -8164,7 +8164,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Cat_Level": 1,
         "2017_01": 102.6271,
         "2017_02": 105.0294,
@@ -8270,7 +8270,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Cat_Level": 1,
         "2017_01": 101.7583,
         "2017_02": 103.5441,
@@ -8376,7 +8376,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Cat_Level": 1,
         "2017_01": 102.0755,
         "2017_02": 103.9957,
@@ -8482,7 +8482,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Cat_Level": 1,
         "2017_01": 100.3463,
         "2017_02": 101.2812,
@@ -8588,7 +8588,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Cat_Level": 1,
         "2017_01": 102.928,
         "2017_02": 105.5673,
@@ -8694,7 +8694,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Cat_Level": 1,
         "2017_01": 102.4339,
         "2017_02": 104.4485,
@@ -8800,7 +8800,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Cat_Level": 1,
         "2017_01": 102.4768,
         "2017_02": 104.4111,
@@ -8906,7 +8906,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Cat_Level": 1,
         "2017_01": 102.9333,
         "2017_02": 106.7382,
@@ -9012,7 +9012,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Cat_Level": 1,
         "2017_01": 99.9812,
         "2017_02": 108.4042,
@@ -9118,7 +9118,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Cat_Level": 1,
         "2017_01": 101.4784,
         "2017_02": 107.0014,
@@ -9224,7 +9224,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Cat_Level": 1,
         "2017_01": 101.394,
         "2017_02": 103.9854,
@@ -9330,7 +9330,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Cat_Level": 1,
         "2017_01": 101.5904,
         "2017_02": 107.6923,
@@ -9436,7 +9436,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Cat_Level": 1,
         "2017_01": 102.225,
         "2017_02": 104.5783,
@@ -9542,7 +9542,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Cat_Level": 1,
         "2017_01": 110.3184,
         "2017_02": 112.0198,

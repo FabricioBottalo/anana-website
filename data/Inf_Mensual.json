@@ -2,7 +2,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Febrero '17": 0.017933391948208754,
         "Marzo '17": 0.022640080718409283,
         "Abril '17": 0.02889195886401663,
@@ -106,7 +106,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Febrero '17": 0.01833734918352059,
         "Marzo '17": 0.0351205743055274,
         "Abril '17": 0.02272356954633392,
@@ -210,7 +210,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Febrero '17": 0.018342112329026605,
         "Marzo '17": 0.02766368910581085,
         "Abril '17": 0.022046082462460204,
@@ -314,7 +314,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Febrero '17": 0.01610693130815477,
         "Marzo '17": 0.01604508799356097,
         "Abril '17": 0.027662625273969788,
@@ -418,7 +418,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Febrero '17": 0.028176165618486015,
         "Marzo '17": 0.020407416713114968,
         "Abril '17": 0.022476669547202288,
@@ -522,7 +522,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Febrero '17": 0.0174894022315768,
         "Marzo '17": 0.02317478332145062,
         "Abril '17": 0.020313880598712863,
@@ -626,7 +626,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "alimentos_bebidas_no_alcoholicas",
+        "Categoria": "Alimentos_y_bebidas_no_alcoholicas",
         "Febrero '17": 0.012912793323981875,
         "Marzo '17": 0.016901728021250007,
         "Abril '17": 0.01441745906109082,
@@ -730,7 +730,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Febrero '17": 0.023028360662531666,
         "Marzo '17": 0.037995378015092784,
         "Abril '17": 0.026005945118693363,
@@ -834,7 +834,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Febrero '17": 0.04954985432951764,
         "Marzo '17": 0.015467299200042417,
         "Abril '17": 0.023051550665144305,
@@ -938,7 +938,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Febrero '17": 0.042749566509784565,
         "Marzo '17": 0.019485079271566175,
         "Abril '17": 0.023708618036519802,
@@ -1042,7 +1042,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Febrero '17": 0.03476046733627447,
         "Marzo '17": 0.019474790560652933,
         "Abril '17": 0.029231712777445296,
@@ -1146,7 +1146,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Febrero '17": 0.04060115803142561,
         "Marzo '17": 0.015712252427718454,
         "Abril '17": 0.020095951962403324,
@@ -1250,7 +1250,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Febrero '17": 0.03869816399390813,
         "Marzo '17": 0.023708364969510454,
         "Abril '17": 0.0235194629427129,
@@ -1354,7 +1354,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "bebidas_alcoholicas_tabaco",
+        "Categoria": "Bebidas_alcoholicas_y_tabaco",
         "Febrero '17": 0.04116904716963421,
         "Marzo '17": 0.011407988154447768,
         "Abril '17": 0.029158795359142786,
@@ -1458,7 +1458,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Febrero '17": 0.010953920221430602,
         "Marzo '17": 0.023718066799166104,
         "Abril '17": 0.013209409099604663,
@@ -1562,7 +1562,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Febrero '17": 0.019826277701068262,
         "Marzo '17": 0.013878219654777757,
         "Abril '17": 0.018892495186429326,
@@ -1666,7 +1666,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Febrero '17": 0.01825289769410765,
         "Marzo '17": 0.01799892287786231,
         "Abril '17": 0.017800882614871893,
@@ -1770,7 +1770,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Febrero '17": 0.011370205827769375,
         "Marzo '17": 0.012797360114555234,
         "Abril '17": 0.03050292957072842,
@@ -1874,7 +1874,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Febrero '17": 0.014576850894515214,
         "Marzo '17": 0.02085565061496708,
         "Abril '17": 0.011943984482187586,
@@ -1978,7 +1978,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Febrero '17": 0.019133739275113415,
         "Marzo '17": 0.022342974168743535,
         "Abril '17": 0.015869656215717676,
@@ -2082,7 +2082,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "bienes_servicios_varios",
+        "Categoria": "Bienes_y_servicios_varios",
         "Febrero '17": 0.017540316088673347,
         "Marzo '17": 0.020286436232697103,
         "Abril '17": 0.022942376194817315,
@@ -2186,7 +2186,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Febrero '17": 0.022329380246368213,
         "Marzo '17": 0.02858809413022989,
         "Abril '17": 0.08559249045534068,
@@ -2290,7 +2290,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Febrero '17": 0.04075424736123234,
         "Marzo '17": 0.024218776030001443,
         "Abril '17": 0.06843524432251513,
@@ -2394,7 +2394,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Febrero '17": 0.04075434054396054,
         "Marzo '17": 0.032091888777209254,
         "Abril '17": 0.06843503626687442,
@@ -2498,7 +2498,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Febrero '17": 0.04256404465506036,
         "Marzo '17": 0.03425473586709682,
         "Abril '17": 0.08388750358863994,
@@ -2602,7 +2602,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Febrero '17": 0.028514126431901543,
         "Marzo '17": 0.05682378518916975,
         "Abril '17": 0.06626459178353339,
@@ -2706,7 +2706,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Febrero '17": 0.04596867891479284,
         "Marzo '17": 0.03953148151270103,
         "Abril '17": 0.06431128898274996,
@@ -2810,7 +2810,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "comunicaciones",
+        "Categoria": "Comunicacion",
         "Febrero '17": 0.040052171398388126,
         "Marzo '17": 0.01991927124709658,
         "Abril '17": 0.0687638511539923,
@@ -2914,7 +2914,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Febrero '17": 0.026467999999999936,
         "Marzo '17": 0.09812093509003694,
         "Abril '17": 0.0915669641035286,
@@ -3018,7 +3018,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Febrero '17": 0.044275422965580624,
         "Marzo '17": 0.06668636121064275,
         "Abril '17": 0.0388158000532457,
@@ -3122,7 +3122,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Febrero '17": 0.03160467958791702,
         "Marzo '17": 0.1092519003508341,
         "Abril '17": 0.028935095876657657,
@@ -3226,7 +3226,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Febrero '17": 0.07989761961674247,
         "Marzo '17": 0.12912349418167746,
         "Abril '17": 0.01008809435453939,
@@ -3330,7 +3330,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Febrero '17": 0.023349381120519652,
         "Marzo '17": 0.27118429853625137,
         "Abril '17": 0.007917982761389775,
@@ -3434,7 +3434,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Febrero '17": 0.016435484545901824,
         "Marzo '17": 0.1250183791456001,
         "Abril '17": 0.018180408270665582,
@@ -3538,7 +3538,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "educacion",
+        "Categoria": "Educacion",
         "Febrero '17": -0.0028478844620657418,
         "Marzo '17": 0.15588309728458016,
         "Abril '17": 0.002966321947295514,
@@ -3642,7 +3642,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Febrero '17": 0.001962260571604757,
         "Marzo '17": 0.010140185625648446,
         "Abril '17": 0.010091109924470487,
@@ -3746,7 +3746,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Febrero '17": 0.0034967496190456693,
         "Marzo '17": 0.009110057717120812,
         "Abril '17": 0.010185050112639704,
@@ -3850,7 +3850,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Febrero '17": 0.004465821349302512,
         "Marzo '17": 0.008397498021273542,
         "Abril '17": 0.011117776992660922,
@@ -3954,7 +3954,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Febrero '17": 0.0035646247234086825,
         "Marzo '17": 0.013750961683011598,
         "Abril '17": 0.017215544196126586,
@@ -4058,7 +4058,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Febrero '17": 0.0024140516929733735,
         "Marzo '17": 0.013560248175690237,
         "Abril '17": 0.010852837793596137,
@@ -4162,7 +4162,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Febrero '17": 0.006971619656992445,
         "Marzo '17": 0.005201870388535035,
         "Abril '17": 0.01141781115837781,
@@ -4266,7 +4266,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "equipamiento_mantenimientos_hogar",
+        "Categoria": "Equipamiento_y_mantenimiento_del_hogar",
         "Febrero '17": 0.002112430789445563,
         "Marzo '17": 0.010125204997141646,
         "Abril '17": 0.013177932388077629,
@@ -4370,7 +4370,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Febrero '17": 0.015316486312696886,
         "Marzo '17": 0.025745362426064178,
         "Abril '17": 0.033295633275996384,
@@ -4474,7 +4474,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Febrero '17": 0.024631587259285492,
         "Marzo '17": 0.023641609309449585,
         "Abril '17": 0.02633661670557963,
@@ -4578,7 +4578,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Febrero '17": 0.020672160211210544,
         "Marzo '17": 0.023741897403600554,
         "Abril '17": 0.026558301836310916,
@@ -4682,7 +4682,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Febrero '17": 0.017595677108997565,
         "Marzo '17": 0.024417731392389674,
         "Abril '17": 0.022260067177416465,
@@ -4786,7 +4786,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Febrero '17": 0.02076841460846013,
         "Marzo '17": 0.03223846921508233,
         "Abril '17": 0.027159871094297294,
@@ -4890,7 +4890,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Febrero '17": 0.017131786449010367,
         "Marzo '17": 0.02208126632358165,
         "Abril '17": 0.02715907512287674,
@@ -4994,7 +4994,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "nivel_general",
+        "Categoria": "Nivel_general",
         "Febrero '17": 0.016803936844342893,
         "Marzo '17": 0.02142253700757646,
         "Abril '17": 0.02004380533756689,
@@ -5098,7 +5098,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Febrero '17": -0.022356569870287557,
         "Marzo '17": 0.02364400262551869,
         "Abril '17": 0.03665049781975638,
@@ -5202,7 +5202,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Febrero '17": -0.00456310749050548,
         "Marzo '17": 0.04763854974016013,
         "Abril '17": 0.050668926631166844,
@@ -5306,7 +5306,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Febrero '17": -0.0015584819597885824,
         "Marzo '17": 0.034422062005638576,
         "Abril '17": 0.04523592978338464,
@@ -5410,7 +5410,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Febrero '17": 0.0014399006029832684,
         "Marzo '17": 0.027902271353621666,
         "Abril '17": 0.0002518615962405768,
@@ -5514,7 +5514,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Febrero '17": -0.0006956400585174105,
         "Marzo '17": 0.01800362701679359,
         "Abril '17": 0.03557491667555257,
@@ -5618,7 +5618,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Febrero '17": 0.0028480221900868408,
         "Marzo '17": 0.024667798770963145,
         "Abril '17": 0.05242634061544771,
@@ -5722,7 +5722,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "prendas_vestir_calzado",
+        "Categoria": "Prendas_de_vestir_y_calzado",
         "Febrero '17": 0.014486635610427623,
         "Marzo '17": 0.023549556730314558,
         "Abril '17": 0.009290318886497895,
@@ -5826,7 +5826,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Febrero '17": 0.015523085108479329,
         "Marzo '17": 0.02601448537152118,
         "Abril '17": 0.02134451937952231,
@@ -5930,7 +5930,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Febrero '17": 0.0006450800538535528,
         "Marzo '17": 0.014442994649093599,
         "Abril '17": 0.033886854888804274,
@@ -6034,7 +6034,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Febrero '17": 0.005867782530579291,
         "Marzo '17": 0.016525669076198346,
         "Abril '17": 0.02631658759148303,
@@ -6138,7 +6138,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Febrero '17": 0.019796782878040764,
         "Marzo '17": 0.0005298785253480265,
         "Abril '17": 0.03220049820031279,
@@ -6242,7 +6242,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Febrero '17": 0.0007059196682759339,
         "Marzo '17": 0.01605945641943407,
         "Abril '17": 0.02437941112414066,
@@ -6346,7 +6346,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Febrero '17": 0.009035405970569954,
         "Marzo '17": 0.01901312031596669,
         "Abril '17": 0.015546760934984194,
@@ -6450,7 +6450,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "recreacion_cultura",
+        "Categoria": "Recreacion_y_cultura",
         "Febrero '17": 0.015557461678347595,
         "Marzo '17": 0.02432511247719016,
         "Abril '17": 0.037418353550549455,
@@ -6554,7 +6554,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Febrero '17": 0.019006722057124392,
         "Marzo '17": 0.00249531045419471,
         "Abril '17": 0.025852036016018598,
@@ -6658,7 +6658,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Febrero '17": 0.017916132555176434,
         "Marzo '17": 0.009929872652236549,
         "Abril '17": 0.02041884964678342,
@@ -6762,7 +6762,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Febrero '17": 0.017346232112061877,
         "Marzo '17": 0.010183184826568326,
         "Abril '17": 0.01909081728668416,
@@ -6866,7 +6866,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Febrero '17": 0.038568890414492296,
         "Marzo '17": 0.0199249605784535,
         "Abril '17": 0.003633414377603561,
@@ -6970,7 +6970,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Febrero '17": 0.008857338017173921,
         "Marzo '17": 0.015924524870946977,
         "Abril '17": 0.020213435446202688,
@@ -7074,7 +7074,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Febrero '17": 0.013180006186612747,
         "Marzo '17": 0.010736459074068838,
         "Abril '17": 0.01806131985694126,
@@ -7178,7 +7178,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "restaurantes_hoteles",
+        "Categoria": "Restaurantes_y_hoteles",
         "Febrero '17": 0.033267361199389,
         "Marzo '17": -0.0019343696027634971,
         "Abril '17": 0.021106908482682485,
@@ -7282,7 +7282,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Febrero '17": 0.02280988370120074,
         "Marzo '17": 0.019542695614173988,
         "Abril '17": 0.022446461628005343,
@@ -7386,7 +7386,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Febrero '17": 0.0329551609723755,
         "Marzo '17": 0.018731356755409267,
         "Abril '17": 0.014383464032432736,
@@ -7490,7 +7490,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Febrero '17": 0.02672298317246402,
         "Marzo '17": 0.0195745928065989,
         "Abril '17": 0.017824909326110472,
@@ -7594,7 +7594,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Febrero '17": 0.02570942896743178,
         "Marzo '17": 0.02286706900696811,
         "Abril '17": 0.024959889707146132,
@@ -7698,7 +7698,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Febrero '17": 0.013356608498226175,
         "Marzo '17": 0.02842770002622852,
         "Abril '17": 0.020274840252606285,
@@ -7802,7 +7802,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Febrero '17": 0.02252461857924759,
         "Marzo '17": 0.0189737507501615,
         "Abril '17": 0.02025519498765349,
@@ -7906,7 +7906,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "salud",
+        "Categoria": "Salud",
         "Febrero '17": 0.021790341015972325,
         "Marzo '17": 0.016055913942319755,
         "Abril '17": 0.01801510962479802,
@@ -8010,7 +8010,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Febrero '17": 0.023408047192213344,
         "Marzo '17": 0.02597748820806367,
         "Abril '17": 0.0076783304781649075,
@@ -8114,7 +8114,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Febrero '17": 0.017549428400435163,
         "Marzo '17": 0.009893369105530958,
         "Abril '17": 0.004964210063259866,
@@ -8218,7 +8218,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Febrero '17": 0.01881156594873401,
         "Marzo '17": 0.01175048583739513,
         "Abril '17": 0.0061748165945465505,
@@ -8322,7 +8322,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Febrero '17": 0.009316736142737758,
         "Marzo '17": 0.010766065173003492,
         "Abril '17": 0.0051479121162509855,
@@ -8426,7 +8426,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Febrero '17": 0.02564219648686472,
         "Marzo '17": 0.00828760421077357,
         "Abril '17": 0.005137999778283442,
@@ -8530,7 +8530,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Febrero '17": 0.019667317167461285,
         "Marzo '17": 0.0120815521524964,
         "Abril '17": 0.007233914543885778,
@@ -8634,7 +8634,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "transporte",
+        "Categoria": "Transporte",
         "Febrero '17": 0.018875491818636014,
         "Marzo '17": 0.018193467935880392,
         "Abril '17": 0.011649815117387163,
@@ -8738,7 +8738,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Cuyo",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Febrero '17": 0.03696471404297741,
         "Marzo '17": 0.048024043875575906,
         "Abril '17": 0.09536384294528544,
@@ -8842,7 +8842,7 @@
     {
         "Ordenamiento": 1,
         "Region": "GBA",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Febrero '17": 0.08424583821758502,
         "Marzo '17": 0.02187553618771232,
         "Abril '17": 0.04615998468976912,
@@ -8946,7 +8946,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Nacional",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Febrero '17": 0.054425375252270536,
         "Marzo '17": 0.03593317470612534,
         "Abril '17": 0.0592216429416228,
@@ -9050,7 +9050,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NEA",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Febrero '17": 0.02555772530918987,
         "Marzo '17": 0.08906731137255819,
         "Abril '17": 0.029461240067074623,
@@ -9154,7 +9154,7 @@
     {
         "Ordenamiento": 1,
         "Region": "NOA",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Febrero '17": 0.060063746180741395,
         "Marzo '17": 0.12703229478802092,
         "Abril '17": 0.08623685556966265,
@@ -9258,7 +9258,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Pampeana",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Febrero '17": 0.023020787478601257,
         "Marzo '17": 0.03030647849506063,
         "Abril '17": 0.07472178060413359,
@@ -9362,7 +9362,7 @@
     {
         "Ordenamiento": 1,
         "Region": "Patagonia",
-        "Categoria": "vivienda_agua_electricidad_combustibles",
+        "Categoria": "Vivienda,_agua,_electricidad,_gas_y_otros_combustibles",
         "Febrero '17": 0.015422631220177285,
         "Marzo '17": 0.02993310111248193,
         "Abril '17": 0.03443616308509179,
