@@ -30,7 +30,7 @@ jobs:
 
       - name: Generate JSONs
         run: |
-          python scripts/build_jsons_from_api.py
+          python scripts/Anana_Armado_de_Json.py
 
       - name: Commit & push if changed
         run: |
