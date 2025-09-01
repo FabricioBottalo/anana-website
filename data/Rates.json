@@ -258,88 +258,88 @@
     {
         "Bank_Name":null,
         "Commercial_Name":"UAL\u00c1",
-        "TNA":27.0,
-        "TEM":2.28,
+        "TNA":40.0,
+        "TEM":3.4,
         "Category":"Billetera",
         "Tags":"[\"Cuenta Remunerada\",\"Hasta $1.500.000\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"NARANJA X",
-        "TNA":29.0,
-        "TEM":2.45,
+        "TNA":43.0,
+        "TEM":3.66,
         "Category":"Billetera",
         "Tags":"[\"Cuenta Remunerada\",\"Hasta $800.000\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"PERSONAL PAY",
-        "TNA":30.8,
-        "TEM":2.2,
+        "TNA":37.0,
+        "TEM":3.14,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"MERCADO PAGO",
-        "TNA":29.3,
-        "TEM":2.21,
+        "TNA":35.2,
+        "TEM":2.98,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"PREX",
-        "TNA":38.33,
-        "TEM":2.22,
+        "TNA":45.82,
+        "TEM":3.9,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"CLARO PAY",
-        "TNA":26.7,
-        "TEM":2.11,
+        "TNA":31.9,
+        "TEM":2.7,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"BRUBANK",
-        "TNA":27.0,
-        "TEM":2.45,
+        "TNA":37.0,
+        "TEM":3.14,
         "Category":"Billetera",
-        "Tags":"[\"FCI\"]"
+        "Tags":"[\"FCI\", \"Hasta $750.000\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"COCOS CAPITAL",
-        "TNA":37.0,
-        "TEM":2.57,
+        "TNA":42.0,
+        "TEM":3.57,
         "Category":"Billetera",
         "Tags":"[\"FCI\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"BICA (CUENTA POSITIVA)",
-        "TNA":25.0,
-        "TEM":2.11,
+        "TNA":35.0,
+        "TEM":2.97,
         "Category":"Billetera",
         "Tags":"[\"FCI\", \"Hasta $500.000\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"NARANJA X (FRASCO A 28 D\u00cdAS)",
-        "TNA":32.0,
-        "TEM":2.71,
+        "TNA":55.0,
+        "TEM":4.7,
         "Category":"Billetera",
         "Tags":"[\"Frasco\",\"Hasta $12.000.000\"]"
     },
     {
         "Bank_Name":null,
         "Commercial_Name":"NARANJA X (FRASCO A 14 D\u00cdAS)",
-        "TNA":30.0,
-        "TEM":2.54,
+        "TNA":49.0,
+        "TEM":4.18,
         "Category":"Billetera",
         "Tags":"[\"Frasco\",\"Hasta $12.000.000\"]"
     },
